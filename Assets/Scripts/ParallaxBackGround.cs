@@ -15,7 +15,7 @@ public class ParallaxBackGround : MonoBehaviour
     private bool infiniteVertical;
 
 
-    private Transform cameraTransform;
+    private Transform cameraTransform; 
     private Vector3 lastCameraPosition;
     private float textureUnitSizeX;
     private float textureUnitSizeY;
