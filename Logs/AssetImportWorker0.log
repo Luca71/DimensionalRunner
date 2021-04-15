@@ -15,7 +15,7 @@ F:/UNITYProject/Progetto2DAIV
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52159
+52646
 Successfully changed project path to: F:/UNITYProject/Progetto2DAIV
 F:/UNITYProject/Progetto2DAIV
 Using Asset Import Pipeline V2.
@@ -35,49 +35,832 @@ Initialize mono
 Mono path[0] = 'F:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'F:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002244 seconds.
+Registered in 0.001575 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.11 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 55.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.894 seconds
+- Completed reload, in  1.979 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001902 seconds.
+Registered in 0.001025 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 66.64 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 94.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.790 seconds
+- Completed reload, in  3.048 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.6 MB.
-System memory in use after: 84.6 MB.
+System memory in use after: 84.5 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2248.
-Total: 5.421500 ms (FindLiveObjects: 0.470400 ms CreateObjectMapping: 0.123000 ms MarkObjects: 4.640200 ms  DeleteObjects: 0.185800 ms)
+Total: 3.625900 ms (FindLiveObjects: 0.322600 ms CreateObjectMapping: 0.101100 ms MarkObjects: 2.931100 ms  DeleteObjects: 0.269000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites
-  artifactKey: Guid(6f66f819d5a2aba4398df57ab2f9e214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(6f66f819d5a2aba4398df57ab2f9e214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500d6a25e259a1b475696d280f2e03a8') in 0.007728 seconds
-  Import took 0.013066 seconds .
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6374019befeac6ce670f13ba9960efb') in 0.005590 seconds
+  Import took 0.010000 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.335754 seconds.
+  path: Assets/Tileset
+  artifactKey: Guid(165b9b8ab60d77642b6d05bbcbba7963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset using Guid(165b9b8ab60d77642b6d05bbcbba7963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7530aa406bccc815f1b393e3919237e') in 0.003232 seconds
+  Import took 0.015383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 439.042398 seconds.
+  path: Assets/Tileset/Free Platform Game Assets
+  artifactKey: Guid(62f0897d5c87e46418b7ef22fc9f2178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets using Guid(62f0897d5c87e46418b7ef22fc9f2178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6140b315fa5fdfcb58211e3ac521f306') in 0.003176 seconds
+  Import took 0.012183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.417346 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets
+  artifactKey: Guid(b89beee25c449cf4ca657c74ca9d4b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets using Guid(b89beee25c449cf4ca657c74ca9d4b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bb461306704ac40bf2a4c3c00dcbb3') in 0.007482 seconds
+  Import took 0.014632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.586063 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Preview
+  artifactKey: Guid(77624f044236812498894862365080ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Preview using Guid(77624f044236812498894862365080ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37a3c1dda7b97b5cbefecc1cade600e') in 0.002923 seconds
+  Import took 0.016912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.012324 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background
+  artifactKey: Guid(43a1a3ad2d5417f4bba850354fc9fbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background using Guid(43a1a3ad2d5417f4bba850354fc9fbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5de410386d28d91e7073fa9e0cab2e') in 0.004833 seconds
+  Import took 0.017426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.323333 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png
+  artifactKey: Guid(794d8b5bdc7b5b041bfe66b992cc9f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png using Guid(794d8b5bdc7b5b041bfe66b992cc9f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53c2cfaa924c86da6d5e81fab869712') in 0.006020 seconds
+  Import took 0.017868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.219250 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/ai
+  artifactKey: Guid(0799fd70b89a5f64ebfa28b752272cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/ai using Guid(0799fd70b89a5f64ebfa28b752272cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53da1e7ee8fe199cee96d29eab130efc') in 0.005961 seconds
+  Import took 0.030643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.209124 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/2048x1536
+  artifactKey: Guid(1628147d7c133f949ad573cf920399ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/2048x1536 using Guid(1628147d7c133f949ad573cf920399ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2126454ec4ca9c22942f852a37b6f92b') in 0.004650 seconds
+  Import took 0.010493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.507890 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/Clouds
+  artifactKey: Guid(5c924cdd49f1a80428f13a287420e0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/Clouds using Guid(5c924cdd49f1a80428f13a287420e0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba679571e00a3f314c4c1a5aa5f5e1f') in 0.005599 seconds
+  Import took 0.011974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.756171 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Character/ai
+  artifactKey: Guid(4701fad8ca85125488a82a3dd5813882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Character/ai using Guid(4701fad8ca85125488a82a3dd5813882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522235b2b359fa6e8c9a195b29f288cc') in 0.025990 seconds
+  Import took 0.040378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.344962 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Character/png
+  artifactKey: Guid(8c03455eb5876584b815f27ac8a48b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Character/png using Guid(8c03455eb5876584b815f27ac8a48b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd807ba6d4dee388172b0612a43e9417') in 0.006345 seconds
+  Import took 0.053180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000914 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Character/png
+  artifactKey: Guid(8c03455eb5876584b815f27ac8a48b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Character/png using Guid(8c03455eb5876584b815f27ac8a48b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd807ba6d4dee388172b0612a43e9417') in 0.001919 seconds
+  Import took 0.018694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.664994 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Character/png/2x
+  artifactKey: Guid(a2bf675d456524b41b290ce2c23f4ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Character/png/2x using Guid(a2bf675d456524b41b290ce2c23f4ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717182cecbe0aff7fa6a30d6c8fedbf8') in 0.006545 seconds
+  Import took 0.015942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.499697 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Chest/ai
+  artifactKey: Guid(d034083db775eb8419d9d96d67e3518e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Chest/ai using Guid(d034083db775eb8419d9d96d67e3518e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881cdc72cb0321817f73906759eb6b5c') in 0.005778 seconds
+  Import took 0.046745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.067255 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Chest/eps
+  artifactKey: Guid(12dedce724804b247be194d06ab1ea73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Chest/eps using Guid(12dedce724804b247be194d06ab1ea73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a34e2059b705ce451e598468d04c375') in 0.007388 seconds
+  Import took 0.013858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.058471 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Chest/png
+  artifactKey: Guid(c1b63117fd6f20346becf886b7771d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Chest/png using Guid(c1b63117fd6f20346becf886b7771d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d86808bcbf88798da744b7b6fa26ba') in 0.004759 seconds
+  Import took 0.012141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.972735 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/ai
+  artifactKey: Guid(60baadb82bbff0c45990755fbaf62d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/ai using Guid(60baadb82bbff0c45990755fbaf62d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a1cbfba9bbc15befe2914ddfc8b82e') in 0.003905 seconds
+  Import took 0.014186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.218997 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Enemies/ai
+  artifactKey: Guid(e37dbb7bd558b154f8d0b4bafad1551c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Enemies/ai using Guid(e37dbb7bd558b154f8d0b4bafad1551c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac90af35d73c0e78e1498bd10f40aab') in 0.002717 seconds
+  Import took 0.030107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.075760 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Enemies/eps
+  artifactKey: Guid(3b227cfe5eba2af438db22984d0403e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Enemies/eps using Guid(3b227cfe5eba2af438db22984d0403e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b570b6d39a20d616d6bf191877283154') in 0.004899 seconds
+  Import took 0.013969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.111450 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Environment/ai
+  artifactKey: Guid(15a34bd2cd10fdb45b6c54dda03d1daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Environment/ai using Guid(15a34bd2cd10fdb45b6c54dda03d1daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24d6a4eafdb808ff1d221664df96cac') in 0.003967 seconds
+  Import took 0.018951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.354672 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Environment/png
+  artifactKey: Guid(1fcc68fbc76e9344b92e96bb2709a13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Environment/png using Guid(1fcc68fbc76e9344b92e96bb2709a13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46e5b3c1130f9d078375971367b7913') in 0.003262 seconds
+  Import took 0.022012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.128511 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Environment/png/2048x2048
+  artifactKey: Guid(e6f0638e5fd2e36418c1984a239a5131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Environment/png/2048x2048 using Guid(e6f0638e5fd2e36418c1984a239a5131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3dff7cbf827b6c9e13e013a805cc72f') in 0.002472 seconds
+  Import took 0.009706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.961544 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Environment/png/1024x1024
+  artifactKey: Guid(9ef35ab508766f449afbfafa9452f6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Environment/png/1024x1024 using Guid(9ef35ab508766f449afbfafa9452f6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0be5a7c4430faf1cdd5d807783a4f6') in 0.003081 seconds
+  Import took 0.034524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.448918 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Environment/png/1024x1024/Environment.png
+  artifactKey: Guid(02f453b629f843547bdb4844ef0351c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Environment/png/1024x1024/Environment.png using Guid(02f453b629f843547bdb4844ef0351c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e80cd3f828c1b5fda47b363e186c900') in 0.567499 seconds
+  Import took 0.575795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.492441 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080
+  artifactKey: Guid(77af6a18e86548940bbbf7a240d6a644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080 using Guid(77af6a18e86548940bbbf7a240d6a644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba305af9969dd888d4ef7a33e3b6d41') in 0.005456 seconds
+  Import took 0.012671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.639447 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background
+  artifactKey: Guid(05ae2b9a9c2064b42a8e38a76282d357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background using Guid(05ae2b9a9c2064b42a8e38a76282d357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c58fd2e7a0cf8f532634dce02752ecf') in 0.003331 seconds
+  Import took 0.024833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.025923 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/Background.png
+  artifactKey: Guid(a0cc837541e50c847aabe030dadbf18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/Background.png using Guid(a0cc837541e50c847aabe030dadbf18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b36225ed2ec9948b5c82c471a1535c') in 0.035116 seconds
+  Import took 0.043517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.348799 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Hills_1.png
+  artifactKey: Guid(7abe24d6bac63134491f3dc483f8e1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Hills_1.png using Guid(7abe24d6bac63134491f3dc483f8e1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff72bfb7f88beaebe03609aa0467acd7') in 0.049055 seconds
+  Import took 0.055662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.899709 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Hills_2.png
+  artifactKey: Guid(3d9a5a37f6ab22442915d4cc15777dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Hills_2.png using Guid(3d9a5a37f6ab22442915d4cc15777dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a0ba402fd5a953c358e5dbc0f17713') in 0.033504 seconds
+  Import took 0.044334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.554019 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Mountain_2.png
+  artifactKey: Guid(d884b9b21fb166a4bab352b87297efa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Mountain_2.png using Guid(d884b9b21fb166a4bab352b87297efa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcd7276c185d112e9c575b17627e0f3') in 0.045531 seconds
+  Import took 0.059324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.648099 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Mountain_3.png
+  artifactKey: Guid(1d899e3c1ed3d6f418bc017ab72f99ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Mountain_3.png using Guid(1d899e3c1ed3d6f418bc017ab72f99ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfb2819ad91c844feaacaf6e434d200') in 0.053597 seconds
+  Import took 0.060884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.487453 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Mountain_4.png
+  artifactKey: Guid(33c9273067dddfd43acbdba6045ca9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Mountain_4.png using Guid(33c9273067dddfd43acbdba6045ca9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359de70df9883cc08d3c56f6a23bd3f9') in 0.037956 seconds
+  Import took 0.045661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.552086 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Sky.png
+  artifactKey: Guid(d3ef645637706434fbc14001da6fa309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Sky.png using Guid(d3ef645637706434fbc14001da6fa309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90317db073120b0ed035aec3fecd4a3e') in 0.030191 seconds
+  Import took 0.043306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.384406 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Mountain_1.png
+  artifactKey: Guid(5c56060380c3e174895b1ca57359d6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Mountain_1.png using Guid(5c56060380c3e174895b1ca57359d6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18721f9a48321d1c642bfa3dd9ec1fce') in 0.023384 seconds
+  Import took 0.037600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.852448 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/Clouds/256x256
+  artifactKey: Guid(36efc42cf85fec74f95df2be70bec112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/Clouds/256x256 using Guid(36efc42cf85fec74f95df2be70bec112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef7eb84136d4fa8d92e5efa8a7f6242') in 0.004243 seconds
+  Import took 0.011802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.849574 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/Clouds/512x512
+  artifactKey: Guid(c6211e918cd941c4cb94db1a1b974481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/Clouds/512x512 using Guid(c6211e918cd941c4cb94db1a1b974481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed3a240e1754b6127b1689ed4bee502') in 0.003147 seconds
+  Import took 0.017393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.301629 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/Clouds/512x512/Cloud_1.png
+  artifactKey: Guid(9b841fceffad5bb448027b2a66173e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/Clouds/512x512/Cloud_1.png using Guid(9b841fceffad5bb448027b2a66173e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2aade070b20e90f13f39d3d323c985') in 0.018082 seconds
+  Import took 0.023732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.880123 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/Clouds/512x512/Cloud_2.png
+  artifactKey: Guid(365f33bbe61315b4aa90aa6a58833f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/Clouds/512x512/Cloud_2.png using Guid(365f33bbe61315b4aa90aa6a58833f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0824026b7372eef6aabad94d9eed26a1') in 0.029824 seconds
+  Import took 0.037040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.893678 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Preview/Preview 2.ai
+  artifactKey: Guid(f2b74f7b77dd09e49997498cddab52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Preview/Preview 2.ai using Guid(f2b74f7b77dd09e49997498cddab52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d01898c624f1db3888cc62b8c63651') in 0.026538 seconds
+  Import took 0.036290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.627024 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/ai
+  artifactKey: Guid(8927757e1ef9dd3429ba24b7df8b07fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/ai using Guid(8927757e1ef9dd3429ba24b7df8b07fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504414060ce2ab31a96912d065dafb22') in 0.002609 seconds
+  Import took 0.024311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.072968 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/eps
+  artifactKey: Guid(28d908c872f207846acf364112149a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/eps using Guid(28d908c872f207846acf364112149a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e144a687abfa2c3973e708a4085239c') in 0.007256 seconds
+  Import took 0.040711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.497610 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png
+  artifactKey: Guid(558a0184a6dd6474abfe2910509e6cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png using Guid(558a0184a6dd6474abfe2910509e6cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d66d0a16d745fcc4e23b61515feca39') in 0.004581 seconds
+  Import took 0.009671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.624318 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/512x512
+  artifactKey: Guid(036fdf28313c40440a0e2586e1028d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/512x512 using Guid(036fdf28313c40440a0e2586e1028d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05979dc285e9631caae1f8514fc19a7f') in 0.016577 seconds
+  Import took 0.025075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.742985 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Water Animation/ai
+  artifactKey: Guid(db56d004464b1be42aac26c2a55b399d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Water Animation/ai using Guid(db56d004464b1be42aac26c2a55b399d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1365a9654c56744cb1a449765d4f8749') in 0.003649 seconds
+  Import took 0.014938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.928113 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Water Animation/eps
+  artifactKey: Guid(78ea568a400ddda4cb3faec2ad8b55ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Water Animation/eps using Guid(78ea568a400ddda4cb3faec2ad8b55ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61aa1026b18f8938edf324ffae7c984') in 0.002501 seconds
+  Import took 0.012217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.558348 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Water Animation/Water Animation.swf
+  artifactKey: Guid(7b4896f0954db344597f072a598286aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Water Animation/Water Animation.swf using Guid(7b4896f0954db344597f072a598286aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b202447066352e8405df3ef7e8c16a3') in 0.015675 seconds
+  Import took 0.023656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.396266 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Water Animation/png
+  artifactKey: Guid(13d6cd30e7f84fe40896e58406c3f60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Water Animation/png using Guid(13d6cd30e7f84fe40896e58406c3f60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e534e114e1f33d178edd71d0d88661') in 0.002460 seconds
+  Import took 0.013293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.005129 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background
+  artifactKey: Guid(ac6af83735ab9ff4781ecf46cfbdcac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background using Guid(ac6af83735ab9ff4781ecf46cfbdcac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41c9ae698a967ccac08fb64c32e5bfb') in 0.002251 seconds
+  Import took 0.014079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.518084 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background/ai
+  artifactKey: Guid(aed416680e8059047a7347a02eefe3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background/ai using Guid(aed416680e8059047a7347a02eefe3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ceee90d0fca99e0d83f822ec12f6a84') in 0.008832 seconds
+  Import took 0.016655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.047356 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background/eps
+  artifactKey: Guid(cbab4ba9093ed33479c2c8155221d477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background/eps using Guid(cbab4ba9093ed33479c2c8155221d477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df809b3a022ac58ed36f10b8d3811d6') in 0.008791 seconds
+  Import took 0.032689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.130605 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background/png
+  artifactKey: Guid(b7423c2c621624a4fb3c1caf4b00578f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background/png using Guid(b7423c2c621624a4fb3c1caf4b00578f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027059df2392ccff842a109136c8b51c') in 0.004293 seconds
+  Import took 0.012206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.674999 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background/png/1920x1080
+  artifactKey: Guid(4007e0d5fa8d53741b8791a69fb6a693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background/png/1920x1080 using Guid(4007e0d5fa8d53741b8791a69fb6a693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2c012a8b9157d8c0d37dd2431560ac') in 0.008621 seconds
+  Import took 0.019287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.441149 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background/png/2048x1536
+  artifactKey: Guid(31fec14b3886d194d939d54958157c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background/png/2048x1536 using Guid(31fec14b3886d194d939d54958157c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329a06d70f3fe154b3d0fb95a3bfea71') in 0.006534 seconds
+  Import took 0.015175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.565356 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background/png/1920x1080/All
+  artifactKey: Guid(561555b5bd9640742b377af2a70c5af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background/png/1920x1080/All using Guid(561555b5bd9640742b377af2a70c5af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64946389f24674a69e5d871e357f933') in 0.005144 seconds
+  Import took 0.014161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.960356 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background/png/1920x1080/All/Hills_2.png
+  artifactKey: Guid(326c2b565859ad645aa20da3719299b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background/png/1920x1080/All/Hills_2.png using Guid(326c2b565859ad645aa20da3719299b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c916e84137a8de210d75e7cac5f5fe0') in 0.038595 seconds
+  Import took 0.045267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.939110 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background/png/1920x1080/All/Hills_1.png
+  artifactKey: Guid(7fa2001758006a146bc67c8ef46bcd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/New Background/png/1920x1080/All/Hills_1.png using Guid(7fa2001758006a146bc67c8ef46bcd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92145d60ad0b3b78c889d380aeaa2364') in 0.043755 seconds
+  Import took 0.049409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.552156 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/eps
+  artifactKey: Guid(dfec5e46589225c4f84762eea6093d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/eps using Guid(dfec5e46589225c4f84762eea6093d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac1ed91c6e467e427ac56bced20cbce') in 0.004841 seconds
+  Import took 0.013985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.216010 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png
+  artifactKey: Guid(8619592ef3f678f4ca2fb55e12111655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png using Guid(8619592ef3f678f4ca2fb55e12111655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0488f7d94b1ce71cf98c2cbc6ca78e01') in 0.002415 seconds
+  Import took 0.022481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.608937 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Empty512x512.png
+  artifactKey: Guid(acf341c533a56c842bed57609daee868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Empty512x512.png using Guid(acf341c533a56c842bed57609daee868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6c6a6705d3ee1bda57b0d8d7c3310c') in 0.039822 seconds
+  Import took 0.046999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.000701 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Elements1024x512.png
+  artifactKey: Guid(4a5c7c29017c7074699b56f10cc8d5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Elements1024x512.png using Guid(4a5c7c29017c7074699b56f10cc8d5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb9f45183eefa702c30e698e85eeba1') in 0.024373 seconds
+  Import took 0.035560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.123165 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Empty1024x1024.png
+  artifactKey: Guid(a3a26370a4d507e4791eacaa39eef189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Empty1024x1024.png using Guid(a3a26370a4d507e4791eacaa39eef189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ec4d11f4b821c038f772664f19b12a') in 0.040559 seconds
+  Import took 0.049324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.276564 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Iconic1024x1024.png
+  artifactKey: Guid(a3f576b046d30b94fad4342cc8bba3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Iconic1024x1024.png using Guid(a3f576b046d30b94fad4342cc8bba3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfa9d89cd7598cd9e1c50f60bfa1022') in 0.049195 seconds
+  Import took 0.057190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.064595 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Iconic2048x2048.png
+  artifactKey: Guid(aee701f09a1e4e940a99c286c8403a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Iconic2048x2048.png using Guid(aee701f09a1e4e940a99c286c8403a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895a5342c41b7c3a2bc0bf905e42d7ff') in 0.088297 seconds
+  Import took 0.109655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.623669 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Elements512x256.png
+  artifactKey: Guid(69e320ce1622a6740984384e087dc8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Elements512x256.png using Guid(69e320ce1622a6740984384e087dc8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f4fd84642b8e4890f5e98412abaa50') in 0.047043 seconds
+  Import took 0.059771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001049 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Elements512x256.png
+  artifactKey: Guid(69e320ce1622a6740984384e087dc8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Elements512x256.png using Guid(69e320ce1622a6740984384e087dc8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f4fd84642b8e4890f5e98412abaa50') in 0.044194 seconds
+  Import took 0.050396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.540886 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.8/Character Animation
+  artifactKey: Guid(e07fae35a2f3411439b7f294ebb52328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.8/Character Animation using Guid(e07fae35a2f3411439b7f294ebb52328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501c462a48534ff13793a37451cdc77e') in 0.008965 seconds
+  Import took 0.017328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.710575 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.8/Character Animation/Idle
+  artifactKey: Guid(16c768526bc2a894180671ab2dc3ec3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.8/Character Animation/Idle using Guid(16c768526bc2a894180671ab2dc3ec3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee81baa5fda0f8f20932f6e67ca604c2') in 0.002804 seconds
+  Import took 0.017417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.664977 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.8/Character Animation/Idle/1x.png
+  artifactKey: Guid(2917db5c8d9fb234283a288c9548ce77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.8/Character Animation/Idle/1x.png using Guid(2917db5c8d9fb234283a288c9548ce77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa79439b8c822f8314b03d5e59f2ebb7') in 0.021175 seconds
+  Import took 0.027329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.528360 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.8/Character Animation/Idle/Blink
+  artifactKey: Guid(9bc8db158559fc046bb5a95d0971cb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.8/Character Animation/Idle/Blink using Guid(9bc8db158559fc046bb5a95d0971cb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c24fbb5b623d847934f66a06a142474') in 0.017201 seconds
+  Import took 0.025819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.334854 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.8.5/New Chests
+  artifactKey: Guid(ecd0ffee1ebeb4749ad8530ceb8463c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.8.5/New Chests using Guid(ecd0ffee1ebeb4749ad8530ceb8463c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b805026fdd74286c4cde6c1218e7c2d2') in 0.006083 seconds
+  Import took 0.015629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.643824 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.8.5/New Chests/eps
+  artifactKey: Guid(1d92cf429295fb74ebd7fbe80176b062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.8.5/New Chests/eps using Guid(1d92cf429295fb74ebd7fbe80176b062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad7aa33a741b06c4607ae4d54cab174') in 0.003305 seconds
+  Import took 0.016804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.633545 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.8.5/New Tiles/ai
+  artifactKey: Guid(0250fad44fda2c941984893fa38267db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.8.5/New Tiles/ai using Guid(0250fad44fda2c941984893fa38267db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33abbf52386b68df22f7e4abdbbabb2f') in 0.004747 seconds
+  Import took 0.026537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.959362 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.8.5/New Tiles/eps
+  artifactKey: Guid(08b8d7e56bd028d469ee7bcab9e4224f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.8.5/New Tiles/eps using Guid(08b8d7e56bd028d469ee7bcab9e4224f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03183816c1f23d9dec0289310d29ac0') in 0.006199 seconds
+  Import took 0.014242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.338736 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Background
+  artifactKey: Guid(62127216729f31b4c9dd849c248c7ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Background using Guid(62127216729f31b4c9dd849c248c7ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a29715e360954ad34aec2a2f8d2d05') in 0.006655 seconds
+  Import took 0.027586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.800613 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Details/2x
+  artifactKey: Guid(430ccd22c137d8e4eb5a94fff5341ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Details/2x using Guid(430ccd22c137d8e4eb5a94fff5341ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae8071dff69d1a91446be5f1f7e018c') in 0.003474 seconds
+  Import took 0.019960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.468162 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Details/2x/Flower-1.png
+  artifactKey: Guid(5f67c1386c8c35745af0347b64ffa159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Details/2x/Flower-1.png using Guid(5f67c1386c8c35745af0347b64ffa159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c891108ae2d4f5844969a021869c02fb') in 0.043816 seconds
+  Import took 0.052696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.945253 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Details/2x/Flower-2.png
+  artifactKey: Guid(d6ff41b2beaa5c945963df7a0daacf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Details/2x/Flower-2.png using Guid(d6ff41b2beaa5c945963df7a0daacf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7df6a03642074e2ba1b0b0c29e66444') in 0.037575 seconds
+  Import took 0.046613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.069699 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/Mace Preview.png
+  artifactKey: Guid(1db217af13107d74bb91314ba1262669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/Mace Preview.png using Guid(1db217af13107d74bb91314ba1262669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517968171a00464c0bf98a6b622ad503') in 0.040636 seconds
+  Import took 0.049015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.064660 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x
+  artifactKey: Guid(99cffcc8d037392408cff93c42a05fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x using Guid(99cffcc8d037392408cff93c42a05fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d2fa49a33d8e5457da0c62bf3f0ba6') in 0.005042 seconds
+  Import took 0.013855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.851733 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Chain-2.png
+  artifactKey: Guid(0c21b8d5c489afc4993364216ba6d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Chain-2.png using Guid(0c21b8d5c489afc4993364216ba6d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715419687f224fd564156c16fcf09615') in 0.019703 seconds
+  Import took 0.026581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.725057 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Chain-3.png
+  artifactKey: Guid(01ffa3c75f82c2f4cb7e6f209d7db87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Chain-3.png using Guid(01ffa3c75f82c2f4cb7e6f209d7db87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637102bbdb105e63b0b46e8a13d5186b') in 0.063663 seconds
+  Import took 0.076730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029935 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Chain-3.png
+  artifactKey: Guid(01ffa3c75f82c2f4cb7e6f209d7db87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Chain-3.png using Guid(01ffa3c75f82c2f4cb7e6f209d7db87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637102bbdb105e63b0b46e8a13d5186b') in 0.029753 seconds
+  Import took 0.038993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.641988 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512
+  artifactKey: Guid(effad1c5a9ed88f4f93f0ddc5fb3cae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512 using Guid(effad1c5a9ed88f4f93f0ddc5fb3cae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11044eca92456f28c95ba3bff5d1a71') in 0.005396 seconds
+  Import took 0.018270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.028166 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/1.png
+  artifactKey: Guid(db1081bcf825b8f4eacf1919e4b2661d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/1.png using Guid(db1081bcf825b8f4eacf1919e4b2661d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34ebdd5e4af16dc82a738a3b5b44eba') in 0.028076 seconds
+  Import took 0.034446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.060809 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/2.png
+  artifactKey: Guid(60a562a5b76e62f498716e3761e949fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/2.png using Guid(60a562a5b76e62f498716e3761e949fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f516b3d65a70ec00ad7d5e185cc25f') in 0.035138 seconds
+  Import took 0.068967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019977 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/2.png
+  artifactKey: Guid(60a562a5b76e62f498716e3761e949fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/2.png using Guid(60a562a5b76e62f498716e3761e949fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f516b3d65a70ec00ad7d5e185cc25f') in 0.020950 seconds
+  Import took 0.050902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.261750 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/4.png
+  artifactKey: Guid(4ba539eadc2bf044184c234b1ba45b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/4.png using Guid(4ba539eadc2bf044184c234b1ba45b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bde1bf3ff105bccc6b0ca0220295e3') in 0.040312 seconds
+  Import took 0.048586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.277335 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/7.png
+  artifactKey: Guid(699d5bd98bcb44640b003714e537b19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/7.png using Guid(699d5bd98bcb44640b003714e537b19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fc895395a342fd73a68acf08430246') in 0.034496 seconds
+  Import took 0.047748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.145763 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/10.png
+  artifactKey: Guid(c8da82bbd9a73fc47abb0a820e728204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/10.png using Guid(c8da82bbd9a73fc47abb0a820e728204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef6425033637b3127c5cd2900b35dc1') in 0.020898 seconds
+  Import took 0.033498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.329920 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/11.png
+  artifactKey: Guid(2e565a1a99287194b8a46d84ea42a38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/11.png using Guid(2e565a1a99287194b8a46d84ea42a38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66287658ae3755e0338c6385ef319907') in 0.034986 seconds
+  Import took 0.043318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.705242 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/12.png
+  artifactKey: Guid(51823c7333370584294608a6305eaf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/12.png using Guid(51823c7333370584294608a6305eaf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42dfb8362471ab56b7d436a7adf4323c') in 0.098805 seconds
+  Import took 0.110429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.249803 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/13.png
+  artifactKey: Guid(6e590ff91c6925942b4c8cea3457750b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/13.png using Guid(6e590ff91c6925942b4c8cea3457750b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e913e79a583a508197cd8311848b6ffc') in 0.036556 seconds
+  Import took 0.050645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.453124 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/14.png
+  artifactKey: Guid(09f4b31dcf10ad541ae95e7134daf302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/14.png using Guid(09f4b31dcf10ad541ae95e7134daf302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c933881d18e2e54f606e295e01fdec') in 0.025754 seconds
+  Import took 0.042017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.575839 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/3.png
+  artifactKey: Guid(f1c8f548d9194644b874398c0a018088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/3.png using Guid(f1c8f548d9194644b874398c0a018088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0b13904e4f39ae68efd90d0b8d5bd1') in 0.026315 seconds
+  Import took 0.047874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.279701 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/5.png
+  artifactKey: Guid(e485a32f377efea42b17a5f60d36e51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/512x512/5.png using Guid(e485a32f377efea42b17a5f60d36e51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e0f466401b1992e14bb7546f3a1b52') in 0.025273 seconds
+  Import took 0.035059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.503827 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/Seasons Tiles (2.5D view)/Autumn
+  artifactKey: Guid(782e6dc02c5c819449d190f034fb57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/Seasons Tiles (2.5D view)/Autumn using Guid(782e6dc02c5c819449d190f034fb57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c805552f4302f258c1268f1fa4d1dbf') in 0.006333 seconds
+  Import took 0.025339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 552.053808 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(af8c83b48ca279a4bafbe9118a532214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(af8c83b48ca279a4bafbe9118a532214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbc7408b0ccc70f81eac8b8f5712e6a') in 0.011308 seconds
+  Import took 0.031305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.544702 seconds.
+  path: Assets/Fonts/BubblegumSans-Regular.ttf
+  artifactKey: Guid(fb2562b335127744cae5f79d7fb46059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/BubblegumSans-Regular.ttf using Guid(fb2562b335127744cae5f79d7fb46059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476701030e301a5555b6b6e1635f26f5') in 0.164113 seconds
+  Import took 0.184054 seconds .
+
