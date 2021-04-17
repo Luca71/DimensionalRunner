@@ -123,36 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &1465623234
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1465623235}
-  m_Layer: 0
-  m_Name: ParallaxEffectGameobject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1465623235
+--- !u!4 &1465623235 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5839821355455963097, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+  m_PrefabInstance: {fileID: 5839821356818693402}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1465623234}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2092264316
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,8 +180,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 5.374374
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -230,9 +205,95 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092264316}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1465623235}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5839821356818693402
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2092264319}
+    m_Modifications:
+    - target: {fileID: 5839821355455963096, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: m_Name
+      value: ParallaxEffectGameobject
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839821355455963097, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839821355455963097, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839821355455963097, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839821355455963097, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839821355455963097, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839821355455963097, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839821355455963097, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839821355455963097, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839821355455963097, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839821355455963097, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839821355455963097, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839821355833883051, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: Camera
+      value: 
+      objectReference: {fileID: 2092264318}
+    - target: {fileID: 5839821356371653177, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: Camera
+      value: 
+      objectReference: {fileID: 2092264318}
+    - target: {fileID: 5839821356539606507, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: Camera
+      value: 
+      objectReference: {fileID: 2092264318}
+    - target: {fileID: 5839821356633481112, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: Camera
+      value: 
+      objectReference: {fileID: 2092264318}
+    - target: {fileID: 5839821357035986901, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: Camera
+      value: 
+      objectReference: {fileID: 2092264318}
+    - target: {fileID: 5839821357083619236, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: Camera
+      value: 
+      objectReference: {fileID: 2092264318}
+    - target: {fileID: 5839821357252147507, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
+      propertyPath: Camera
+      value: 
+      objectReference: {fileID: 2092264318}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8083782c3ec52444daff2371ac40673c, type: 3}
