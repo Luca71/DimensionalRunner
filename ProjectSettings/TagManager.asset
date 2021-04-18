@@ -38,6 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Mace
+    uniqueID: 2235649117
+    locked: 0
+  - name: ChainSaw
+    uniqueID: 670592449
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
