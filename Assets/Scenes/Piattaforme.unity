@@ -323,5 +323,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deb2062904f97cd4e9031c0381b71e75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 50
-  FinalPos: {x: 3, y: 0, z: 0}
+  SpeedX: 50
+  SpeedY: 50
+  FinalPos: {x: 3, y: 3, z: 0}
+  MoveOnXAxis: 0
+  MoveOnYAxis: 0

@@ -5,8 +5,9 @@ using UnityEngine;
 public class PlatformMovement : MonoBehaviour
 {
     private Rigidbody2D body;
-    public float Speed;
+    public float SpeedX, SpeedY;
     public Vector3 FinalPos;
+    public bool MoveOnXAxis, MoveOnYAxis;
     private bool IsMax;
     private Vector3 StartingPos;
     private Vector3 TargetPos;
@@ -22,19 +23,40 @@ public class PlatformMovement : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        if (body.position.x > TargetPos.x && TargetPos==FinalPos)
+        if(MoveOnXAxis == true)
         {
-            Speed = -Speed;
-            TargetPos = StartingPos;
-            //body.velocity = new Vector2(-Speed * Time.fixedDeltaTime, 0);
+            if (body.position.x > TargetPos.x && TargetPos==FinalPos)
+            {
+                SpeedX = -SpeedX;
+                TargetPos = StartingPos;
+                //body.velocity = new Vector2(-Speed * Time.fixedDeltaTime, 0);
          
-        }
-        else if(body.position.x < TargetPos.x && TargetPos==StartingPos)
-        {
-            Speed = -Speed;
-            TargetPos = FinalPos;
+            }
+            else if(body.position.x < TargetPos.x && TargetPos==StartingPos)
+            {
+                SpeedX = -SpeedX;
+                TargetPos = FinalPos;
             
+            }
+            body.velocity = new Vector2(SpeedX * Time.fixedDeltaTime, 0);
         }
-        body.velocity = new Vector2(Speed * Time.fixedDeltaTime, 0);
+
+        if (MoveOnYAxis == true)
+        {
+            if (body.position.y > TargetPos.y && TargetPos == FinalPos)
+            {
+                SpeedY = -SpeedY;
+                TargetPos = StartingPos;
+                //body.velocity = new Vector2(-Speed * Time.fixedDeltaTime, 0);
+
+            }
+            else if (body.position.y < TargetPos.y && TargetPos == StartingPos)
+            {
+                SpeedY = -SpeedY;
+                TargetPos = FinalPos;
+
+            }
+            body.velocity = new Vector2( 0, SpeedY * Time.fixedDeltaTime);
+        }       
     }
 }
