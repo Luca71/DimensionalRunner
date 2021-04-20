@@ -107,3 +107,8 @@ crashlytics-build.properties
 *.tiff filter=lfs diff=lfs merge=lfs -text
 
 
+Logs/AssetImportWorker0.log
+Logs/shadercompiler-AssetImportWorker0.log
+Logs/shadercompiler-UnityShaderCompiler.exe0.log
+
+*.log

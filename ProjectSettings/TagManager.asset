@@ -4,7 +4,16 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - Enemy
+=======
+  - InteractableObj
+  - Enemy
+  - Coin
+  - GraveStone
+  - Dimension1
+  - Dimension2
+>>>>>>> main
   layers:
   - Default
   - TransparentFX
@@ -39,11 +48,16 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+<<<<<<< HEAD
   - name: Mace
     uniqueID: 2235649117
     locked: 0
   - name: ChainSaw
     uniqueID: 670592449
+=======
+  - name: Background
+    uniqueID: 1118473459
+>>>>>>> main
     locked: 0
   - name: Default
     uniqueID: 0
