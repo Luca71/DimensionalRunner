@@ -28,6 +28,7 @@ public class ChangeDimensionController : MonoBehaviour
         {
             GrayscaleToggle(renderer1, collider1);
             GrayscaleToggle(renderer2, collider2);
+            ChangeDimensionSprite.instance.ChangeDimension();
         }
     }
 
