@@ -12,13 +12,13 @@ public class TimerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        seconds = 0;
+        seconds = 55;
     }
 
     // Update is called once per frame
     void Update()
     {
-        seconds = (int)(Time.time % 60);
+        seconds = (int)(Time.time);
         TimeText.text = "Time: " + seconds.ToString("00000") + " sec.";
     }
 }
