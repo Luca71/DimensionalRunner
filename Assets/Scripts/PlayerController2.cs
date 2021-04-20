@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController2 : MonoBehaviour
 {
     public float Speed;
 
@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.P))
         {
-            ScoreManager.score += 10;
+            ScoreManager2.score += 10;
         }
     }
 

@@ -53,7 +53,8 @@ public class PlayerMovement : MonoBehaviour
     {
         myAnim.SetFloat("vSpeed", verticalSpeed);
         verticalSpeed = controller.m_Rigidbody2D.velocity.y;
-        controller.Move(horizontalMove * Time.fixedDeltaTime, canJump);
+        if(canMove)
+            controller.Move(horizontalMove * Time.fixedDeltaTime, canJump);
         canJump = false;
     }
 
@@ -61,7 +62,9 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Enemy"))
+        {
             Die();
+        }
 
         if (other.CompareTag("InteractableObj"))
             other.GetComponent<Interactable>().PlayAnimation();
@@ -74,6 +77,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Die()
     {
+        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         Vector3 currPos = transform.position;
         AnimationAndMovementState(false);
         SpawnGraveStone(currPos + Vector3.up);
