@@ -38,6 +38,12 @@ public class GraveStone : MonoBehaviour
         canShowGhost = false;
     }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Dimension1") || 
+            other.gameObject.CompareTag("Dimension2") || other.gameObject.CompareTag("GraveStone"))
+            Physics2D.IgnoreCollision(other.collider, GetComponent<BoxCollider2D>());
+    }
     //private void OnTriggerEnter2D(Collider2D other)
     //{
     //    if (other.CompareTag("GraveStone"))
@@ -47,12 +53,12 @@ public class GraveStone : MonoBehaviour
     private void FixedUpdate()
     {
         // Check ground
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
-        for (int i = 0; i < colliders.Length; i++)
-        {
-            if (colliders[i].gameObject != gameObject)
-                m_Grounded = true;
-        }
+        //Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
+        //for (int i = 0; i < colliders.Length; i++)
+        //{
+        //    if (colliders[i].gameObject != gameObject)
+        //        m_Grounded = true;
+        //}
 
         // show ghost animation
         Collider2D[] animColliders = Physics2D.OverlapBoxAll(InfluenceAreaPosition.position, overlapAreaSize, 0f, playerMask);

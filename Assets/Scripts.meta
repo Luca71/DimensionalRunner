@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
 guid: f26f6d4ce42b31847b0960e5fe03f661
+=======
+guid: bba6f17238dc6534dbeaab296e3efba6
+>>>>>>> ParallaxEffectBranch
+=======
+guid: 18cba123e5c35594d9416b3590fad829
+>>>>>>> FrancescoBranch
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
