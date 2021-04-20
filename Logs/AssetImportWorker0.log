@@ -883,3 +883,100 @@ System memory in use after: 86.5 MB.
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2408.
 Total: 1.692000 ms (FindLiveObjects: 0.164400 ms CreateObjectMapping: 0.058700 ms MarkObjects: 1.451200 ms  DeleteObjects: 0.016700 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 549.821627 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(7902adefe0012714bbda8fed42c72b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(7902adefe0012714bbda8fed42c72b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff016ba471731574bb1fdf2be4428c9') in 0.009855 seconds
+  Import took 0.013082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.625751 seconds.
+  path: Assets/Prefabs/MaceCircleRoot.prefab
+  artifactKey: Guid(a45fbe37cc5cb8e4faf7e2e9cc34bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MaceCircleRoot.prefab using Guid(a45fbe37cc5cb8e4faf7e2e9cc34bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0066a6855fc6fda426118c190e908721') in 0.100912 seconds
+  Import took 0.104130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.990639 seconds.
+  path: Assets/Prefabs/SawRoot.prefab
+  artifactKey: Guid(f564f73ec1b67064282882287aaba990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SawRoot.prefab using Guid(f564f73ec1b67064282882287aaba990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b530d5d49b9f72c8eb4f91c11cca42') in 0.017177 seconds
+  Import took 0.019786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007457 seconds.
+  path: Assets/Prefabs/SawRoot.prefab
+  artifactKey: Guid(f564f73ec1b67064282882287aaba990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SawRoot.prefab using Guid(f564f73ec1b67064282882287aaba990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b530d5d49b9f72c8eb4f91c11cca42') in 0.008518 seconds
+  Import took 0.011236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.983812 seconds.
+  path: Assets/Prefabs/MaceSquaredRoot.prefab
+  artifactKey: Guid(28c29f4c6928fce418ae9d49954edef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MaceSquaredRoot.prefab using Guid(28c29f4c6928fce418ae9d49954edef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1cefd11379d628553f43c1c31561815') in 0.019902 seconds
+  Import took 0.023914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.382102 seconds.
+  path: Assets/Prefabs/Obstacle
+  artifactKey: Guid(bfe465bedbf80934cbe7b9d95152b5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle using Guid(bfe465bedbf80934cbe7b9d95152b5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8b490a71cea37db0151d8ff777ea78') in 0.005571 seconds
+  Import took 0.009033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.822900 seconds.
+  path: Assets/Prefabs/Obstacle/SawRoot.prefab
+  artifactKey: Guid(f564f73ec1b67064282882287aaba990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/SawRoot.prefab using Guid(f564f73ec1b67064282882287aaba990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1798484367715ea6d10171c244483928') in 0.010516 seconds
+  Import took 0.014482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011690 seconds.
+  path: Assets/Prefabs/Obstacle/SawRoot.prefab
+  artifactKey: Guid(f564f73ec1b67064282882287aaba990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/SawRoot.prefab using Guid(f564f73ec1b67064282882287aaba990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1798484367715ea6d10171c244483928') in 0.018357 seconds
+  Import took 0.021282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.254008 seconds.
+  path: Assets/Prefabs/Obstacle/MaceSquaredRoot.prefab
+  artifactKey: Guid(28c29f4c6928fce418ae9d49954edef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/MaceSquaredRoot.prefab using Guid(28c29f4c6928fce418ae9d49954edef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9f80f1578e40682cb8985d802e6845') in 0.009507 seconds
+  Import took 0.012873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007025 seconds.
+  path: Assets/Prefabs/Obstacle/MaceSquaredRoot.prefab
+  artifactKey: Guid(28c29f4c6928fce418ae9d49954edef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/MaceSquaredRoot.prefab using Guid(28c29f4c6928fce418ae9d49954edef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9f80f1578e40682cb8985d802e6845') in 0.008906 seconds
+  Import took 0.011812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.114529 seconds.
+  path: Assets/Prefabs/Obstacle/MaceCircleRoot.prefab
+  artifactKey: Guid(a45fbe37cc5cb8e4faf7e2e9cc34bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/MaceCircleRoot.prefab using Guid(a45fbe37cc5cb8e4faf7e2e9cc34bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d5b35d57219e142014e2469744dba6') in 0.010300 seconds
+  Import took 0.014004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008564 seconds.
+  path: Assets/Prefabs/Obstacle/MaceCircleRoot.prefab
+  artifactKey: Guid(a45fbe37cc5cb8e4faf7e2e9cc34bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/MaceCircleRoot.prefab using Guid(a45fbe37cc5cb8e4faf7e2e9cc34bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d5b35d57219e142014e2469744dba6') in 0.033677 seconds
+  Import took 0.036571 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
