@@ -142,7 +142,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &97478566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,7 +285,7 @@ GameObject:
   - component: {fileID: 343390938}
   - component: {fileID: 343390939}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Player-Proj
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -709,7 +709,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1237,7 +1237,7 @@ GameObject:
   - component: {fileID: 2075408589}
   - component: {fileID: 2075408591}
   m_Layer: 5
-  m_Name: Timer
+  m_Name: Time
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1282,7 +1282,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'TIMER: 000'
+  m_text: 'TIME: 000'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f34765e7a0d08a04d91aa26dd29cad4f, type: 2}
   m_sharedMaterial: {fileID: 7202839209198759762, guid: f34765e7a0d08a04d91aa26dd29cad4f, type: 2}
@@ -1390,7 +1390,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &2138979992
 BoxCollider2D:
   m_ObjectHideFlags: 0

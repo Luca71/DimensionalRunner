@@ -83,7 +83,7 @@ public class EnemyMovementJump : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Player[0].transform.position = new Vector2(-1, 10);
+            //Player[0].transform.position = new Vector2(-1, 10);
         }
     }
 }

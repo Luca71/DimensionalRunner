@@ -27,6 +27,7 @@ public class EnemyMovementFall : MonoBehaviour
         FirstSprite = GetComponent<SpriteRenderer>().sprite;
         originalPosition = transform.position;
         EnemyState = EnemyFallState.idle;
+        myRigidbody.freezeRotation = true;
     }
 
     // Update is called once per frame
@@ -128,7 +129,7 @@ public class EnemyMovementFall : MonoBehaviour
     }
     #endregion
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {

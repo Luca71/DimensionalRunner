@@ -12,7 +12,7 @@ public class TimerManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        TimerObj = GameObject.Find("Timer");
+        TimerObj = GameObject.Find("Time");
         TimerObj.GetComponent<TextMeshProUGUI>().outlineColor = Color.black;
         TimerObj.GetComponent<TextMeshProUGUI>().outlineWidth = 0.3f;
     }
@@ -35,6 +35,6 @@ public class TimerManager : MonoBehaviour
             nZero = "";
         }
 
-        TimerObj.GetComponent<TextMeshProUGUI>().text = "TIMER: " + nZero + (int)timer;
+        TimerObj.GetComponent<TextMeshProUGUI>().text = "TIME: " + nZero + (int)timer;
     }
 }
