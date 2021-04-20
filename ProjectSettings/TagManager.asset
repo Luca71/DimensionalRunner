@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - InteractableObj
   - GraveStone
+  - Coin
   layers:
   - Default
   - TransparentFX
