@@ -5,25 +5,15 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-//public class MyList<T> : List<T>
-//{
-//    public Action OnAdd;
-
-//    public new void Add(T item) // "new" to avoid compiler-warnings, because we're hiding a method from base-class
-//    {
-//        if (null != OnAdd)
-//        {
-//            OnAdd.Invoke();
-//        }
-//        base.Add(item);
-//    }
-//}
 public class MoveAroundPerimeter : MonoBehaviour
 {
     public float Speed = 1;
     public bool ClockWise = true;
     public List<Vector3> Edges = new List<Vector3>();
     private int index = 0;
+    Vector3 startingPos;
+    Transform parent;
+    Vector3 offset;
 
     private void Start()
     {
@@ -31,11 +21,26 @@ public class MoveAroundPerimeter : MonoBehaviour
         {
             Edges.Reverse();
         }
+        offset = Vector3.zero;
+        parent = transform.parent;
+        if (parent != null)
+            startingPos = parent.position;
+        else
+            startingPos = Vector3.zero;
     }
     void Update()
     {
         if (Edges.Count > 1)
         {
+            if (parent != null && Vector3.Distance(startingPos, parent.position) > 0.0001f)
+            {
+                offset = parent.position - startingPos;
+                for (int i = 0; i < Edges.Count; i++)
+                {
+                    Edges[i] += offset;
+                }
+                startingPos = parent.position;
+            }
             float distance = Vector3.Distance(transform.position, Edges[index]);
             if (distance > 0.01f)
                 transform.position = Vector3.MoveTowards(transform.position, Edges[index], Time.deltaTime * Speed);
@@ -48,6 +53,7 @@ public class MoveAroundPerimeter : MonoBehaviour
 public class FreeMoveHandleMoveAroundPerimeter : Editor
 {
     List<Vector3> Edges;
+    Vector3 parent;
     MoveAroundPerimeter instance;
 
     private void OnEnable()
