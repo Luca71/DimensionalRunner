@@ -8,9 +8,9 @@ public class GraveStone : MonoBehaviour
     [SerializeField] Vector2 overlapAreaSize;
     [SerializeField] LayerMask playerMask;
 
-    [SerializeField] LayerMask m_WhatIsGround;
+    [SerializeField] LayerMask WhatIsGraveStone;
     [SerializeField] Transform m_GroundCheck;
-    float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
+    float k_GroundedRadius = 1f; // Radius of the overlap circle to determine if grounded
 
     [SerializeField] SpriteRenderer Sprite;
     [SerializeField] Sprite[] sprites;
@@ -19,11 +19,13 @@ public class GraveStone : MonoBehaviour
     bool m_Grounded;
     bool canShowGhost;
     Rigidbody2D rb;
+    GameObject[] graveStones;
 
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        graveStones = new GameObject[1];
     }
 
     // Start is called before the first frame update
@@ -40,25 +42,24 @@ public class GraveStone : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        
         if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Dimension1") || 
             other.gameObject.CompareTag("Dimension2") || other.gameObject.CompareTag("GraveStone"))
             Physics2D.IgnoreCollision(other.collider, GetComponent<BoxCollider2D>());
     }
-    //private void OnTriggerEnter2D(Collider2D other)
-    //{
-    //    if (other.CompareTag("GraveStone"))
-    //        Destroy(other.gameObject);
-    //}
-
+    
     private void FixedUpdate()
     {
-        // Check ground
-        //Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
-        //for (int i = 0; i < colliders.Length; i++)
-        //{
-        //    if (colliders[i].gameObject != gameObject)
-        //        m_Grounded = true;
-        //}
+        
+        // destroy other closer GraveStone
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, k_GroundedRadius, WhatIsGraveStone);
+        if (colliders.Length > 1)
+        {
+            for (int i = 1; i < colliders.Length; i++)
+            {
+                Destroy(colliders[i].gameObject);
+            }
+        }
 
         // show ghost animation
         Collider2D[] animColliders = Physics2D.OverlapBoxAll(InfluenceAreaPosition.position, overlapAreaSize, 0f, playerMask);

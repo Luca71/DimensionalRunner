@@ -102,4 +102,13 @@ public class PlayerMovement : MonoBehaviour
         transform.position = startSpawnPoint.position;
         AnimationAndMovementState(true);
     }
+
+    public void CanMoveToggle(bool state)
+    {
+        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        //spriteRenderer.enabled = state;
+        myAnim.enabled = state;
+        canMove = state;
+    }
+
 }

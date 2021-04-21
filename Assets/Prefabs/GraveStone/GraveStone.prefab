@@ -154,7 +154,7 @@ GameObject:
   - component: {fileID: 5657398964877272752}
   - component: {fileID: 5657398964877272753}
   - component: {fileID: 2422745983642964921}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GraveStone
   m_TagString: GraveStone
   m_Icon: {fileID: 0}
@@ -217,9 +217,9 @@ MonoBehaviour:
   playerMask:
     serializedVersion: 2
     m_Bits: 8
-  m_WhatIsGround:
+  WhatIsGraveStone:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 128
   m_GroundCheck: {fileID: 5657398963690949526}
   Sprite: {fileID: 5657398964337374566}
   sprites:
@@ -241,7 +241,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.06875992}
+  m_Offset: {x: -0.020186424, y: 0.13197875}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -252,7 +252,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.86248016}
+  m_Size: {x: 2.1946607, y: 0.7360425}
   m_EdgeRadius: 0
 --- !u!1 &5657398964922865808
 GameObject:
