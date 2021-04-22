@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4123715489716298594}
   m_Layer: 0
   m_Name: ScoreManager
-  m_TagString: Untagged
+  m_TagString: ScoreManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,3 +45,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectedCoin: 0
   timeFromStart: 0
+  scoreText: {fileID: 0}

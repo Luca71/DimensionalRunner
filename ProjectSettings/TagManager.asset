@@ -11,6 +11,7 @@ TagManager:
   - Dimension1
   - Dimension2
   - ScoreText
+  - ScoreManager
   layers:
   - Default
   - TransparentFX

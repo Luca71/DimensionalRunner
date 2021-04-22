@@ -6,7 +6,20 @@ using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
-    public static ScoreManager instance;
+    public static ScoreManager Instance { get
+        {
+            if(instance == null)
+            {
+                var gm = new GameObject("ScoreManager");
+                instance = gm.AddComponent<ScoreManager>(); 
+
+                DontDestroyOnLoad(instance.gameObject);
+            }
+            return instance;
+        }
+    }
+
+    private static ScoreManager instance;
 
     [HideInInspector]
     public int collectedCoin = 0;
@@ -14,23 +27,30 @@ public class ScoreManager : MonoBehaviour
     public int timeFromStart = 0;
     public Dictionary<string, int> highScores;
 
-    // in game score text
-    TMP_Text scoreText;
+    
+
+    public delegate void OnScoreUpdateDelegate(int coins);
+
+    public static OnScoreUpdateDelegate OnScoreUpdate;
 
     private void Awake()
     {
-        MakeInstance();
-        DontDestroyOnLoad(this);
-    }
+        if(instance != null && instance != this)
+        {
+            Debug.LogError("Score manager ha una doppia istanza nella scena");
+            Destroy(this);
+        }
+        
+        highScores = new Dictionary<string, int>();
 
-    private void Start()
-    {
-        ResetCoinToZero();
-        scoreText = GameObject.FindGameObjectWithTag("ScoreText").GetComponent<TMP_Text>();
-        if (scoreText == null)
-            return;
-        else
-            scoreText.text = "Score: " + collectedCoin.ToString("00000");
+        for (int i = 0; i < 10; i++)
+        {
+            highScores.Add("Host" + i, i);
+        }
+
+        ScoreTableUpdate();
+
+        //LoadBestScore();
     }
 
     // aggiungere funzionalità
@@ -38,7 +58,7 @@ public class ScoreManager : MonoBehaviour
     public void AddCoins(int value)
     {
         collectedCoin += value;
-        scoreText.text = "Score: " + collectedCoin.ToString("00000");
+        OnScoreUpdate(collectedCoin);
     }
 
     public int GetTotalScore()
@@ -62,20 +82,31 @@ public class ScoreManager : MonoBehaviour
     {
         GameData data = SaveSystem.LoadBestScore();
         highScores = data.ScoreTable;
+        ScoreTableUpdate();
+    }
+
+    public void SetScore(string name, int lastGameScore)
+    {
+        // fare giro su dizionario e cercare nome, poi controllo lo score e lo sostituisco
+        // se non c'è key aggiungo
+        highScores.Add(name, lastGameScore);
     }
 
     void ScoreTableUpdate()
     {
-        highScores.Add("aa", 5); // test da cancellare
-        highScores = highScores.OrderByDescending(x => x.Value) as Dictionary<string, int>;
-        highScores = highScores.Take(5) as Dictionary<string, int>;
-    }
 
-    void MakeInstance()
-    {
-        if (instance == null)
-            instance = this;
-        else if (instance != null)
-            Destroy(gameObject);
+        if (highScores.Count == 0) return;
+
+        int num = highScores.Count;
+        if(highScores.Count >= 5)
+        {
+            num = 5;
+        }
+       
+        highScores = highScores.OrderByDescending(x => x.Value).ToDictionary(X => X.Key, X => X.Value);
+        //var a = from entry in highScores orderby entry.Value descending select entry;
+        
+        highScores = highScores.Take(num).ToDictionary(X => X.Key, X => X.Value);
+
     }
 }
