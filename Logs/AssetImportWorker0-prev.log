@@ -15,11 +15,11 @@ F:/UNITYProject/Progetto2DAIV
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63438
+58215
 Successfully changed project path to: F:/UNITYProject/Progetto2DAIV
 F:/UNITYProject/Progetto2DAIV
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 189.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 116.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path F:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,48 +35,1694 @@ Initialize mono
 Mono path[0] = 'F:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'F:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001853 seconds.
+Registered in 0.002611 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 190.87 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 110.37 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.285 seconds
+- Completed reload, in  2.416 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001273 seconds.
+Registered in 0.001860 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 200.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 96.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.656 seconds
+- Completed reload, in  2.398 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.28 seconds
-Refreshing native plugins compatible for Editor in 1.54 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1911 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.2 MB.
-System memory in use after: 161.2 MB.
+Unloading 1918 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.4 MB.
+System memory in use after: 161.4 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2360.
-Total: 7.703600 ms (FindLiveObjects: 0.432900 ms CreateObjectMapping: 0.180500 ms MarkObjects: 6.724900 ms  DeleteObjects: 0.362300 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2367.
+Total: 2.890600 ms (FindLiveObjects: 0.402500 ms CreateObjectMapping: 0.143100 ms MarkObjects: 2.163000 ms  DeleteObjects: 0.180300 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Sprites/Chest
+  artifactKey: Guid(9a954247339b44845bcdd0e53b9e6464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Chest using Guid(9a954247339b44845bcdd0e53b9e6464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae8559a04b4b3f0430b2ebbc81394a2') in 0.005589 seconds
+  Import took 0.010730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.103007 seconds.
+  path: Assets/Sprites/LevelExit
+  artifactKey: Guid(cfd9d658f23527f4b986db15a56223a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LevelExit using Guid(cfd9d658f23527f4b986db15a56223a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1247c4219e960258b9a615e37f9a13') in 0.008340 seconds
+  Import took 0.015045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.066015 seconds.
+  path: Assets/Sprites/ShapeProfile
+  artifactKey: Guid(cf29a74d34ecb064aa7c7d7f7c0bfa4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ShapeProfile using Guid(cf29a74d34ecb064aa7c7d7f7c0bfa4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd262532f5878cf4f266b4ad938898db') in 0.003081 seconds
+  Import took 0.010062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000892 seconds.
+  path: Assets/Sprites/ShapeProfile
+  artifactKey: Guid(cf29a74d34ecb064aa7c7d7f7c0bfa4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ShapeProfile using Guid(cf29a74d34ecb064aa7c7d7f7c0bfa4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd262532f5878cf4f266b4ad938898db') in 0.002979 seconds
+  Import took 0.010556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.107875 seconds.
+  path: Assets/Sprites/SceneObj/Bush.png
+  artifactKey: Guid(0667586397a998942a8a63dc0cf4674b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SceneObj/Bush.png using Guid(0667586397a998942a8a63dc0cf4674b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2f7d5bf0ec06da491f125ecfc027a2') in 0.221210 seconds
+  Import took 0.229086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.152682 seconds.
+  path: Assets/Sprites/SceneObj/Bush.png
+  artifactKey: Guid(0667586397a998942a8a63dc0cf4674b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SceneObj/Bush.png using Guid(0667586397a998942a8a63dc0cf4674b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fead5ee4e7a24f40b404dcdd23fd9b4e') in 0.017032 seconds
+  Import took 0.023454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035982 seconds.
+  path: Assets/Sprites/SceneObj/Bush.png
+  artifactKey: Guid(0667586397a998942a8a63dc0cf4674b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SceneObj/Bush.png using Guid(0667586397a998942a8a63dc0cf4674b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fead5ee4e7a24f40b404dcdd23fd9b4e') in 0.016777 seconds
+  Import took 0.024430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.144091 seconds.
+  path: Assets/Sprites/LevelExit/Elements512x256.png
+  artifactKey: Guid(66d06f20acca60040a9a9e35995341d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LevelExit/Elements512x256.png using Guid(66d06f20acca60040a9a9e35995341d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a24b0b7363ac3dd835d38d7f74783d9') in 0.016615 seconds
+  Import took 0.022468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.582180 seconds.
+  path: Assets/Sprites/LevelExit/Elements512x256.png
+  artifactKey: Guid(66d06f20acca60040a9a9e35995341d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LevelExit/Elements512x256.png using Guid(66d06f20acca60040a9a9e35995341d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94c45fec4fca2abda8f575d2ba74b51') in 0.014990 seconds
+  Import took 0.021608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.779866 seconds.
+  path: Assets/Sprites/LevelExit/Elements512x256.png
+  artifactKey: Guid(66d06f20acca60040a9a9e35995341d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LevelExit/Elements512x256.png using Guid(66d06f20acca60040a9a9e35995341d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd86e801176819d9ac2cb9dcd4377922') in 0.050808 seconds
+  Import took 0.058677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.819636 seconds.
+  path: Assets/Sprites/LevelExit/Elements512x256.png
+  artifactKey: Guid(66d06f20acca60040a9a9e35995341d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LevelExit/Elements512x256.png using Guid(66d06f20acca60040a9a9e35995341d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee81aedec19f851f5c57152716a9efd') in 0.039589 seconds
+  Import took 0.047866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 372.103326 seconds.
+  path: Assets/Sprites/LevelExit/Elements512x256.png
+  artifactKey: Guid(66d06f20acca60040a9a9e35995341d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LevelExit/Elements512x256.png using Guid(66d06f20acca60040a9a9e35995341d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163bbe2070495d5e263be8e66121e8c3') in 0.048557 seconds
+  Import took 0.055308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.680254 seconds.
+  path: Assets/Scripts/SaveAndLoad
+  artifactKey: Guid(389c77f03fdb97443b9ffead1029c9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SaveAndLoad using Guid(389c77f03fdb97443b9ffead1029c9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9350616ba93411646874bc1071fd03') in 0.008427 seconds
+  Import took 0.016168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.447378 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(f26f6d4ce42b31847b0960e5fe03f661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(f26f6d4ce42b31847b0960e5fe03f661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a481448fea3b15d493af159b62abef2') in 0.002462 seconds
+  Import took 0.009987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012842 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(f26f6d4ce42b31847b0960e5fe03f661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(f26f6d4ce42b31847b0960e5fe03f661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a481448fea3b15d493af159b62abef2') in 0.003248 seconds
+  Import took 0.011921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.622892 seconds.
+  path: Assets/Scripts/LevelExit
+  artifactKey: Guid(7a8cc96594c7c9242bce25486e2383d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LevelExit using Guid(7a8cc96594c7c9242bce25486e2383d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e495d71266d065902f043b0fc316381') in 0.002288 seconds
+  Import took 0.010351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.526072 seconds.
+  path: Assets/Scripts/LevelExit/LevelExit.cs
+  artifactKey: Guid(d6243dec6aeb9a54ebbb6655995ffe40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LevelExit/LevelExit.cs using Guid(d6243dec6aeb9a54ebbb6655995ffe40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb2c727d6d44938401ca83682df475b') in 0.030586 seconds
+  Import took 0.064798 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.426 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1898 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.4 MB.
+System memory in use after: 163.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2388.
+Total: 3.958600 ms (FindLiveObjects: 0.546500 ms CreateObjectMapping: 0.143300 ms MarkObjects: 3.127600 ms  DeleteObjects: 0.139500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 215.279088 seconds.
+  path: Assets/LucaTestScene/MainMenu.unity
+  artifactKey: Guid(fe40c847e6b7aee4f93c7542df736191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LucaTestScene/MainMenu.unity using Guid(fe40c847e6b7aee4f93c7542df736191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a09ad799fe4f733db339b57b813c1de') in 0.025168 seconds
+  Import took 0.031029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 435.288827 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Empty512x512.png
+  artifactKey: Guid(acf341c533a56c842bed57609daee868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Empty512x512.png using Guid(acf341c533a56c842bed57609daee868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9d468d42a62a4b4902440f4d9a9318') in 0.120084 seconds
+  Import took 0.127303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.853276 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Iconic1024x1024.png
+  artifactKey: Guid(a3f576b046d30b94fad4342cc8bba3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Iconic1024x1024.png using Guid(a3f576b046d30b94fad4342cc8bba3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ef624987636cf9f6193c5b726cc614') in 0.466914 seconds
+  Import took 0.474811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.062704 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Empty512x512.png
+  artifactKey: Guid(acf341c533a56c842bed57609daee868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.7/GUI/png/Empty512x512.png using Guid(acf341c533a56c842bed57609daee868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e44660075b345d84b0aa588de7eb6ec') in 0.058005 seconds
+  Import took 0.063966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 834.120492 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 1.png
+  artifactKey: Guid(3e299f9e6494ff243b3cbe6f6333c5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 1.png using Guid(3e299f9e6494ff243b3cbe6f6333c5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5af2eb3b39b8328f2af9ab9433ea47') in 0.052961 seconds
+  Import took 0.066824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 3.png
+  artifactKey: Guid(b178e42c13e05a34fa3088b11b1028e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 3.png using Guid(b178e42c13e05a34fa3088b11b1028e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df883ba651ccc8615e4900285724cd2') in 0.044201 seconds
+  Import took 0.057820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/MountainBackgroundComplementary.png
+  artifactKey: Guid(d6fcbb07b3bf54d4a8b346e5497130e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/MountainBackgroundComplementary.png using Guid(d6fcbb07b3bf54d4a8b346e5497130e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3c4db7e9b9c95eed0799ac48e603cb') in 0.060858 seconds
+  Import took 0.096257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001571 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/MountainsForeground.png
+  artifactKey: Guid(bd74e5cf7a77de14e83b2c3d61b52547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/MountainsForeground.png using Guid(bd74e5cf7a77de14e83b2c3d61b52547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c459c82024df04d37b53fc9e77811858') in 0.029119 seconds
+  Import took 0.042126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 8.png
+  artifactKey: Guid(6095496ef128d154e9d4dccaf67d5e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 8.png using Guid(6095496ef128d154e9d4dccaf67d5e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b02e09e6cab4faa065a3f2adcd29f9') in 0.042855 seconds
+  Import took 0.057032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/MountainBackground.png
+  artifactKey: Guid(f60289080c765c54b8c60e4b43f3ba35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/MountainBackground.png using Guid(f60289080c765c54b8c60e4b43f3ba35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f751415f1780d26d2ba6ada52667b5c7') in 0.025047 seconds
+  Import took 0.035365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Enemies/png/256x256/MaceFollow.png
+  artifactKey: Guid(1544d423401b56042a5f3e35155eefb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Enemies/png/256x256/MaceFollow.png using Guid(1544d423401b56042a5f3e35155eefb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bddb21dce2581ef101283feddbdedf') in 0.029469 seconds
+  Import took 0.049078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Character/1x/LeftHand&Arm.png
+  artifactKey: Guid(83a75f1fb5d3203429ecc38c3b01b25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Character/1x/LeftHand&Arm.png using Guid(83a75f1fb5d3203429ecc38c3b01b25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f871b622615400f227a80d789c5b367a') in 0.036160 seconds
+  Import took 0.077489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000555 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Enemies/png/256x256/MaceJump.png
+  artifactKey: Guid(fbc0df68bcd902f46a001d5596d0696b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Enemies/png/256x256/MaceJump.png using Guid(fbc0df68bcd902f46a001d5596d0696b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb62a222476749d17347b77000cfe8d') in 0.038014 seconds
+  Import took 0.068822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Mountain_1.png
+  artifactKey: Guid(5c56060380c3e174895b1ca57359d6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Mountain_1.png using Guid(5c56060380c3e174895b1ca57359d6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3385ea5b4d44f11e673d440b3406041c') in 0.044849 seconds
+  Import took 0.065758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004442 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Mountain_2.png
+  artifactKey: Guid(d884b9b21fb166a4bab352b87297efa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Mountain_2.png using Guid(d884b9b21fb166a4bab352b87297efa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984d154e77435770caa30683f8fea1b6') in 0.050593 seconds
+  Import took 0.080724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Sprites/MainMenu/Title.png
+  artifactKey: Guid(20ade6a5b4c1b994da0ed42d01b477e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MainMenu/Title.png using Guid(20ade6a5b4c1b994da0ed42d01b477e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b01835a96c13d2576cca7369717d7db') in 0.021839 seconds
+  Import took 0.040831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001064 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Enemies/png/256x256/MaceJumpGood.png
+  artifactKey: Guid(2bab1f5827335094aa33fb4f634d000f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Enemies/png/256x256/MaceJumpGood.png using Guid(2bab1f5827335094aa33fb4f634d000f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8b8974232ec45d3a9cacb1b9dc09ea') in 0.051064 seconds
+  Import took 0.069292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000771 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.8/Character Animation/Idle/testPlayer.png
+  artifactKey: Guid(2bc41cc38a695194d94141d5dc850761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.8/Character Animation/Idle/testPlayer.png using Guid(2bc41cc38a695194d94141d5dc850761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e97e895a733571bbc4a5d41920900dd') in 0.051937 seconds
+  Import took 0.061937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 2.png
+  artifactKey: Guid(b68ca8f9d03bc0647ad855c6b8a42f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 2.png using Guid(b68ca8f9d03bc0647ad855c6b8a42f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6969475295cf69eea75656ab1a7ba43d') in 0.058655 seconds
+  Import took 0.073673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001041 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Enemies/png/256x256/MaceFollowGood.png
+  artifactKey: Guid(a737515dcd4a105478a08f80738145f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Enemies/png/256x256/MaceFollowGood.png using Guid(a737515dcd4a105478a08f80738145f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a1dc17ad08e9ae5021bed841fce102') in 0.036560 seconds
+  Import took 0.054796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 13.png
+  artifactKey: Guid(729a8da331ed04848a1e40e83d7e6b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 13.png using Guid(729a8da331ed04848a1e40e83d7e6b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e93ff854611debb312d006e600076e') in 0.068452 seconds
+  Import took 0.076516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 11.png
+  artifactKey: Guid(a08a8131a8fa6824aa00d4ac38e1ca4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 11.png using Guid(a08a8131a8fa6824aa00d4ac38e1ca4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8685628fca58bdebeac0d24cf67402') in 0.023426 seconds
+  Import took 0.035655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 7.png
+  artifactKey: Guid(a64c7e86126068141ac247435b962e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 7.png using Guid(a64c7e86126068141ac247435b962e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c5a9b9af61643194b7c503e14e5444') in 0.016017 seconds
+  Import took 0.025049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Mace-Chain.png
+  artifactKey: Guid(98527c64cd51e664fb5561e4f717bdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Mace-Chain.png using Guid(98527c64cd51e664fb5561e4f717bdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c316f19845d1cbb54abde5b666dbfb') in 0.021271 seconds
+  Import took 0.028768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/MountainsForegroundComplementary.png
+  artifactKey: Guid(2a1e714a30f48ce4e93a7044c87755ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/MountainsForegroundComplementary.png using Guid(2a1e714a30f48ce4e93a7044c87755ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c3b3823a9c0c26c82c360446e2aef7') in 0.041587 seconds
+  Import took 0.049171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 14.png
+  artifactKey: Guid(2b276e8e74f64964193234ee22bd183f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 14.png using Guid(2b276e8e74f64964193234ee22bd183f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49cc2ce1227defac397b1a38dd5d312') in 0.020615 seconds
+  Import took 0.027656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 6.png
+  artifactKey: Guid(06ec1c00cd2f1d14884b78d937e5778f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 6.png using Guid(06ec1c00cd2f1d14884b78d937e5778f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d3207880339b5fc94d2cf0ed46a88a') in 0.019870 seconds
+  Import took 0.026962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 16.png
+  artifactKey: Guid(5d409040e2dcec347af267385d0b98c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 16.png using Guid(5d409040e2dcec347af267385d0b98c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2280712461733da9ecd3db63a45e7432') in 0.014674 seconds
+  Import took 0.021479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 1.png
+  artifactKey: Guid(3e299f9e6494ff243b3cbe6f6333c5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 1.png using Guid(3e299f9e6494ff243b3cbe6f6333c5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5af2eb3b39b8328f2af9ab9433ea47') in 0.012612 seconds
+  Import took 0.041759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000880 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Character/1x/RightHand&Arm.png
+  artifactKey: Guid(1eba1c49220091e4aa26b34e631576ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Character/1x/RightHand&Arm.png using Guid(1eba1c49220091e4aa26b34e631576ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcd561045dc6bcfd6bd888c234df605') in 0.017973 seconds
+  Import took 0.025760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000774 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Square.png
+  artifactKey: Guid(dcdd124532c1fdf4e89a05dca69b1cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Square.png using Guid(dcdd124532c1fdf4e89a05dca69b1cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47482df5164972618183160efa66a44') in 0.018680 seconds
+  Import took 0.026179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 15.png
+  artifactKey: Guid(4ad9dda0b094ef340b2f1d997fcf0366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 15.png using Guid(4ad9dda0b094ef340b2f1d997fcf0366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742c3b930b12f2c52d5a57b437bd7cd1') in 0.016504 seconds
+  Import took 0.020921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Enemies/png/128x128/Saw.png
+  artifactKey: Guid(ea40900da50112649ba1a30ec7e892b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Enemies/png/128x128/Saw.png using Guid(ea40900da50112649ba1a30ec7e892b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5ee36598c225ab80828c3a0bd92a79') in 0.021724 seconds
+  Import took 0.034520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000703 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 4.png
+  artifactKey: Guid(f1297d450d3dbdf40a51214acb607746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 4.png using Guid(f1297d450d3dbdf40a51214acb607746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e65e14f40d38390a8ff203cd69b8cb0') in 0.024921 seconds
+  Import took 0.032630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 5.png
+  artifactKey: Guid(ffdfcd1061754664786c0a2b04869907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 5.png using Guid(ffdfcd1061754664786c0a2b04869907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f639664f2f2b6a4f2d5a8c8dbdafa75') in 0.019677 seconds
+  Import took 0.027390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 12.png
+  artifactKey: Guid(3982ec578a7cc1b409425680c2463f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 12.png using Guid(3982ec578a7cc1b409425680c2463f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74dcab82c38f31924d24b0da61011139') in 0.016375 seconds
+  Import took 0.023338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/MountainsMiddleground.png
+  artifactKey: Guid(65bbfee29a0c7b74c888f663bbfcc0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/MountainsMiddleground.png using Guid(65bbfee29a0c7b74c888f663bbfcc0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c87bf2e39b9efde3edd82859a9c1a55') in 0.022326 seconds
+  Import took 0.027321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Mountain_4.png
+  artifactKey: Guid(33c9273067dddfd43acbdba6045ca9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Mountain_4.png using Guid(33c9273067dddfd43acbdba6045ca9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63901f4fce6023e173c0aac0df72b630') in 0.021090 seconds
+  Import took 0.044534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/MountainsMiddlegroundComplementary.png
+  artifactKey: Guid(51590d8827825c64da153fba1db22837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/MountainsMiddlegroundComplementary.png using Guid(51590d8827825c64da153fba1db22837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3f8823305b6bedfbeea6a7362016bd') in 0.028673 seconds
+  Import took 0.036510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 9.png
+  artifactKey: Guid(93bdd713b946f5f4f91eb440a56c5c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 9.png using Guid(93bdd713b946f5f4f91eb440a56c5c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb135e3d7d69f6843c133b69d77cd10') in 0.015452 seconds
+  Import took 0.022777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 10.png
+  artifactKey: Guid(ca854a1f042a8514c9d3cb8f646c7106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 10.png using Guid(ca854a1f042a8514c9d3cb8f646c7106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4696aa4fa5298e250573689a0fdddc7e') in 0.017081 seconds
+  Import took 0.022759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Mace.png
+  artifactKey: Guid(4e388af98958e9a469ac832a0085182b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Mace.png using Guid(4e388af98958e9a469ac832a0085182b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b09b068be27155019986dee73ab94ca') in 0.025544 seconds
+  Import took 0.039373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 10.png
+  artifactKey: Guid(ca854a1f042a8514c9d3cb8f646c7106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Coin Animation/png/2x/image 10.png using Guid(ca854a1f042a8514c9d3cb8f646c7106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4696aa4fa5298e250573689a0fdddc7e') in 0.014425 seconds
+  Import took 0.020213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064678 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Mace.png
+  artifactKey: Guid(4e388af98958e9a469ac832a0085182b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Mace.png using Guid(4e388af98958e9a469ac832a0085182b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b09b068be27155019986dee73ab94ca') in 0.015841 seconds
+  Import took 0.022278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.532682 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Hills_1.png
+  artifactKey: Guid(7abe24d6bac63134491f3dc483f8e1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Hills_1.png using Guid(7abe24d6bac63134491f3dc483f8e1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e380cc4a13c29404e76342a35508ea18') in 0.059950 seconds
+  Import took 0.067637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Hills_2Complementary.png
+  artifactKey: Guid(f8abd3a9ee9635f43ae1d5411ce2575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Hills_2Complementary.png using Guid(f8abd3a9ee9635f43ae1d5411ce2575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0fa8537174b020b13b2f1421fc8de6') in 0.035528 seconds
+  Import took 0.067017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Hills_1.png
+  artifactKey: Guid(7abe24d6bac63134491f3dc483f8e1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Hills_1.png using Guid(7abe24d6bac63134491f3dc483f8e1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e380cc4a13c29404e76342a35508ea18') in 0.016313 seconds
+  Import took 0.022239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040975 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Hills_2Complementary.png
+  artifactKey: Guid(f8abd3a9ee9635f43ae1d5411ce2575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/All/Hills_2Complementary.png using Guid(f8abd3a9ee9635f43ae1d5411ce2575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0fa8537174b020b13b2f1421fc8de6') in 0.017043 seconds
+  Import took 0.023990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.398463 seconds.
+  path: Assets/Sprites/GraveStone/graveyard_tileset_32x32.png
+  artifactKey: Guid(b1535792c9d63294d8e97ffbc33c105e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/GraveStone/graveyard_tileset_32x32.png using Guid(b1535792c9d63294d8e97ffbc33c105e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d89a3eb4080132892e481c68cafa6f') in 0.449009 seconds
+  Import took 0.480724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.225939 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassRight.png
+  artifactKey: Guid(70fab88d9358c694281b96c6c001e463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassRight.png using Guid(70fab88d9358c694281b96c6c001e463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedb246a7cccc54655aaaf558a165436') in 0.048815 seconds
+  Import took 0.075637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassSample_2.png
+  artifactKey: Guid(3829c8b0026af5b4a8f53be2b857faca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassSample_2.png using Guid(3829c8b0026af5b4a8f53be2b857faca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69834b21d4cda76317abb54baa11edc4') in 0.022183 seconds
+  Import took 0.029163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000995 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassRight.png
+  artifactKey: Guid(70fab88d9358c694281b96c6c001e463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassRight.png using Guid(70fab88d9358c694281b96c6c001e463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedb246a7cccc54655aaaf558a165436') in 0.012523 seconds
+  Import took 0.018431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085961 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassMid.png
+  artifactKey: Guid(3ec63d73a171c1f47adab59d6a19b878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassMid.png using Guid(3ec63d73a171c1f47adab59d6a19b878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff14abbf8e6c5a0cfa24b9b10b558df1') in 0.034393 seconds
+  Import took 0.064525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.543334 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassLeft.png
+  artifactKey: Guid(b110c10e405efad4fa7d3a4ab6e7e8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassLeft.png using Guid(b110c10e405efad4fa7d3a4ab6e7e8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a4a489114d8b40464e7e0057b4fe05') in 0.025580 seconds
+  Import took 0.050584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassJoinHillRight&Left.png
+  artifactKey: Guid(f40468170996b7c4c953876b0f2753d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassJoinHillRight&Left.png using Guid(f40468170996b7c4c953876b0f2753d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98416f600d4753779679438a54035b2') in 0.049433 seconds
+  Import took 0.084413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001639 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassJoinHillRight2&Left2.png
+  artifactKey: Guid(2f56e641d7aa172448f11a092e4d3195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassJoinHillRight2&Left2.png using Guid(2f56e641d7aa172448f11a092e4d3195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d4b79004840070c01c509d0d7053d2') in 0.038154 seconds
+  Import took 0.050234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassJoinHillRight2.png
+  artifactKey: Guid(90815797e0c19934bb6a31ad10c79051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassJoinHillRight2.png using Guid(90815797e0c19934bb6a31ad10c79051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6430c786e199ec44f514bda3ec7e447') in 0.038061 seconds
+  Import took 0.073034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075325 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassJoinHillRight.png
+  artifactKey: Guid(4bdc55292c4ac224e8cddccad1788552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassJoinHillRight.png using Guid(4bdc55292c4ac224e8cddccad1788552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c6bf91b0b44343885362a23c535744') in 0.035703 seconds
+  Import took 0.061260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.457173 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassJoinHillLeft2.png
+  artifactKey: Guid(68a36febb8a7fa547ba85283e0ff2fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassJoinHillLeft2.png using Guid(68a36febb8a7fa547ba85283e0ff2fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61af64bc8689799981e9ad50dc926bff') in 0.078355 seconds
+  Import took 0.117409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134758 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassCliffRight.png
+  artifactKey: Guid(b6f7afdcd64a4b34ebee5f935131bed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassCliffRight.png using Guid(b6f7afdcd64a4b34ebee5f935131bed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d2e3f328b073828947ad630fc22392') in 0.047532 seconds
+  Import took 0.081132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassJoinHillLeft.png
+  artifactKey: Guid(362bef2f3fcbd1347aa7c166d2714867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassJoinHillLeft.png using Guid(362bef2f3fcbd1347aa7c166d2714867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05177399707d0cf8b5df3d76b9ed2dd') in 0.036706 seconds
+  Import took 0.078228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassHillLeft2.png
+  artifactKey: Guid(a15d1ab91d1b72249a629e7f7949171e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassHillLeft2.png using Guid(a15d1ab91d1b72249a629e7f7949171e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15288ad706018c00cfdf24c210ef8b28') in 0.025836 seconds
+  Import took 0.034264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000967 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassHillRight.png
+  artifactKey: Guid(f8b5c7abe0f7c4e45882f80de30308b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassHillRight.png using Guid(f8b5c7abe0f7c4e45882f80de30308b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea073fc674cf7746692aeee111979ac') in 0.052518 seconds
+  Import took 0.062751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassHillRight2.png
+  artifactKey: Guid(6e48709dada923442a92a007e0fec399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassHillRight2.png using Guid(6e48709dada923442a92a007e0fec399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91b2ab09042177c33b4bd2bd47ebc7d') in 0.035407 seconds
+  Import took 0.053418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001179 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassHillLeft.png
+  artifactKey: Guid(6bae7e8b46df62849a478e1630ff645c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassHillLeft.png using Guid(6bae7e8b46df62849a478e1630ff645c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ca75d851bea432649ee3513025a9d2') in 0.028059 seconds
+  Import took 0.039892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassCliffMid.png
+  artifactKey: Guid(027ed50d62c25864eb0b7b5c9058f270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassCliffMid.png using Guid(027ed50d62c25864eb0b7b5c9058f270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63411f9d9280bd90f163ab89c62b5eb6') in 0.050110 seconds
+  Import took 0.063995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.396439 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassCliffLeft.png
+  artifactKey: Guid(62cd3830623cf6d48995a6fa55c108be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/GrassCliffLeft.png using Guid(62cd3830623cf6d48995a6fa55c108be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78db3a355a2513be481d9d039595e86') in 0.051663 seconds
+  Import took 0.091491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/Grass.png
+  artifactKey: Guid(d830ea14be9f772409d386359d882017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/Grass.png using Guid(d830ea14be9f772409d386359d882017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c2a39aa967f02378976953e6d0df4e') in 0.032186 seconds
+  Import took 0.042566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Sprites/Ghost/ghost.png
+  artifactKey: Guid(9fbb67dac59a1374e9747b204b2b9084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ghost/ghost.png using Guid(9fbb67dac59a1374e9747b204b2b9084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73756f93c20eb4f391d80df579fb6af7') in 0.318188 seconds
+  Import took 0.343619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.722335 seconds.
+  path: Assets/Sprites/FixedPlayer/Desappearing.png
+  artifactKey: Guid(efe01837d09b60b4d9d4a2cfdd5fa4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FixedPlayer/Desappearing.png using Guid(efe01837d09b60b4d9d4a2cfdd5fa4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced9a6ebeead59d82ddb688f7ec6ef77') in 0.077326 seconds
+  Import took 0.092982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/DirtLeftCorner.png
+  artifactKey: Guid(837eec7f3d68ca54ab618973d7806e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/DirtLeftCorner.png using Guid(837eec7f3d68ca54ab618973d7806e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7aec5cf96ce6d52b7cb5b46716f2f6a') in 0.026186 seconds
+  Import took 0.074866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000733 seconds.
+  path: Assets/Sprites/FixedPlayer/CharacterIdle.png
+  artifactKey: Guid(31ad1df516b5a6543a3108c9c25691bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FixedPlayer/CharacterIdle.png using Guid(31ad1df516b5a6543a3108c9c25691bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86043f62d636ac9ab68402687ec251de') in 0.146961 seconds
+  Import took 0.161624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Chain-1.png
+  artifactKey: Guid(04135c7d77d111e4caafeff93e5b89e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Chain-1.png using Guid(04135c7d77d111e4caafeff93e5b89e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56614ddf2ba188f142a818389fabdb2b') in 0.019202 seconds
+  Import took 0.026156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Chain-2.png
+  artifactKey: Guid(0c21b8d5c489afc4993364216ba6d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Chain-2.png using Guid(0c21b8d5c489afc4993364216ba6d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8178b5d873982233b2ab746db0d4126') in 0.015534 seconds
+  Import took 0.022920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/DirtDown.png
+  artifactKey: Guid(b861b1ef6c613384e9c669120284ec92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/DirtDown.png using Guid(b861b1ef6c613384e9c669120284ec92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69c0ee5d3c9f8db1696979c4c9a69c3') in 0.020112 seconds
+  Import took 0.024823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/CloudsBehind.png
+  artifactKey: Guid(9f3fceb61d329504bae78374b8b403ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/CloudsBehind.png using Guid(9f3fceb61d329504bae78374b8b403ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdac36be15e5ad5aec076e63bba2df6') in 0.041043 seconds
+  Import took 0.046561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Chain-2.png
+  artifactKey: Guid(0c21b8d5c489afc4993364216ba6d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Chain-2.png using Guid(0c21b8d5c489afc4993364216ba6d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8178b5d873982233b2ab746db0d4126') in 0.012004 seconds
+  Import took 0.018037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/CloudsForeground.png
+  artifactKey: Guid(14a12d241e1bf014995705eba528826d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/CloudsForeground.png using Guid(14a12d241e1bf014995705eba528826d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc32c15373aa7b8910f256b5417dca19') in 0.023289 seconds
+  Import took 0.029215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/Clouds/512x512/Cloud_1.png
+  artifactKey: Guid(9b841fceffad5bb448027b2a66173e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/Clouds/512x512/Cloud_1.png using Guid(9b841fceffad5bb448027b2a66173e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8f7ead0cf6ddb6121e345c03190939') in 0.020212 seconds
+  Import took 0.026973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/DirtRight.png
+  artifactKey: Guid(ce2a41f8fc0fc50468842ffb3de34373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/DirtRight.png using Guid(ce2a41f8fc0fc50468842ffb3de34373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a412196d65d0bba092d1db1115f8dc2') in 0.036573 seconds
+  Import took 0.041405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Sprites/Chest/Chest Sheet-2048x512(1x).png
+  artifactKey: Guid(0484d4b7690c62640af8b018fd81dea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Chest/Chest Sheet-2048x512(1x).png using Guid(0484d4b7690c62640af8b018fd81dea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737036c6fd12092def6501fa372c1f10') in 0.021360 seconds
+  Import took 0.027457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/DirtRightCorner.png
+  artifactKey: Guid(7903965901976d04ebe7636ff7960bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/DirtRightCorner.png using Guid(7903965901976d04ebe7636ff7960bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897d3745cdd688a6244bf17de29b1890') in 0.017485 seconds
+  Import took 0.023210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Circle.png
+  artifactKey: Guid(ef9103d72ba391147a151e110f0c00af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Circle.png using Guid(ef9103d72ba391147a151e110f0c00af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df85924245701bb5c65ec57775eee04f') in 0.018684 seconds
+  Import took 0.025711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Sprites/FixedPlayer/CharacterJump.png
+  artifactKey: Guid(754fa5ea2978b6b459c1172d1375a275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FixedPlayer/CharacterJump.png using Guid(754fa5ea2978b6b459c1172d1375a275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ea7e6ea77043c081f6a1434a46f1c5') in 0.041493 seconds
+  Import took 0.047579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/CloudsBehindComplementary.png
+  artifactKey: Guid(82839ba193ecc4046a77a6fa1950f45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/CloudsBehindComplementary.png using Guid(82839ba193ecc4046a77a6fa1950f45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee278c75969eff8fb87be4594c5009a') in 0.025688 seconds
+  Import took 0.033911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/DirtLeft.png
+  artifactKey: Guid(3628240008a6b0e4983c8ec05a317fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/DirtLeft.png using Guid(3628240008a6b0e4983c8ec05a317fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdeef9f883f7b0ed5906ba6337ade1c') in 0.018819 seconds
+  Import took 0.024392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Sprites/FixedPlayer/CharacterRun.png
+  artifactKey: Guid(d8194250813930b438f19f650c09fb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FixedPlayer/CharacterRun.png using Guid(d8194250813930b438f19f650c09fb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c7e5893e69159cfc6bb07016693710') in 0.115631 seconds
+  Import took 0.123294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/Clouds/512x512/Cloud_2.png
+  artifactKey: Guid(365f33bbe61315b4aa90aa6a58833f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/Clouds/512x512/Cloud_2.png using Guid(365f33bbe61315b4aa90aa6a58833f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee6cd82637243e26fec4e3a80244df8') in 0.021208 seconds
+  Import took 0.027185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/Dirt.png
+  artifactKey: Guid(3e11c96edfac4a74880cd7b1701118a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/Dirt.png using Guid(3e11c96edfac4a74880cd7b1701118a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a89cb458b96d570e1a8054ee904050') in 0.016559 seconds
+  Import took 0.023718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Chain-3.png
+  artifactKey: Guid(01ffa3c75f82c2f4cb7e6f209d7db87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Enemy/2x/Chain-3.png using Guid(01ffa3c75f82c2f4cb7e6f209d7db87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0547881f7771b993dd1d60c0b08e8e') in 0.021634 seconds
+  Import took 0.052415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/CloudsForegroundComplementary.png
+  artifactKey: Guid(deba2730481580f478292e0ee0e8bd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/CloudsForegroundComplementary.png using Guid(deba2730481580f478292e0ee0e8bd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727d8bdabef6ed9d03f08de87d450ede') in 0.026836 seconds
+  Import took 0.033135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038560 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/CloudsForegroundComplementary.png
+  artifactKey: Guid(deba2730481580f478292e0ee0e8bd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Background/png/1920x1080/Background/CloudsForegroundComplementary.png using Guid(deba2730481580f478292e0ee0e8bd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727d8bdabef6ed9d03f08de87d450ede') in 0.016543 seconds
+  Import took 0.023891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.570710 seconds.
+  path: Assets/Sprites/MainMenu/Background.png
+  artifactKey: Guid(f075e41e57c0e5d4788417bde35a2b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MainMenu/Background.png using Guid(f075e41e57c0e5d4788417bde35a2b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e28ad7638aaf8c9b44112da784b7ac') in 0.139365 seconds
+  Import took 0.148116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Sprites/AnimatedFlower/Asset 14-9.png
+  artifactKey: Guid(886081faa7c4d9845baa22cfcb19fb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedFlower/Asset 14-9.png using Guid(886081faa7c4d9845baa22cfcb19fb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fba3252187601789ac37837d16ee32') in 0.052162 seconds
+  Import took 0.068833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002424 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/10.png
+  artifactKey: Guid(9766c39b53728654f884995a5b772af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/10.png using Guid(9766c39b53728654f884995a5b772af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0dd941989746c43e896a0ff24850d5') in 0.029270 seconds
+  Import took 0.043301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Sprites/AnimatedFlower/Asset 14-3.png
+  artifactKey: Guid(0400017b69e3e794b970db24741439f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedFlower/Asset 14-3.png using Guid(0400017b69e3e794b970db24741439f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f596c1975d9ff935d2d3cbe5baba89f') in 0.062124 seconds
+  Import took 0.077500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002883 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/Asset 41.png
+  artifactKey: Guid(d15ac006164abb6459b8255afa51febc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/Asset 41.png using Guid(d15ac006164abb6459b8255afa51febc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b5d62f913e55a12edda017837c1929') in 0.036966 seconds
+  Import took 0.048878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Sprites/AnimatedFlower/Asset 14-8.png
+  artifactKey: Guid(e470528ba1f0f0c408d82fc91fb3e52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedFlower/Asset 14-8.png using Guid(e470528ba1f0f0c408d82fc91fb3e52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe3963ac3154e0923f4589dc3510daf') in 0.057010 seconds
+  Import took 0.065817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Sprites/AnimatedFlower/Asset 14-2.png
+  artifactKey: Guid(fb9bdb2f0e86807418e7a2f27ef05f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedFlower/Asset 14-2.png using Guid(fb9bdb2f0e86807418e7a2f27ef05f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ff0f4ca354796751fecb84d23fa59d') in 0.016677 seconds
+  Import took 0.023188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Sprites/AnimatedFlower/Asset 14-1.png
+  artifactKey: Guid(900531da28acf7e4c8b6ed595f4959fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedFlower/Asset 14-1.png using Guid(900531da28acf7e4c8b6ed595f4959fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7f9647a96bcd08e3f74e1e3ca60eee') in 0.016532 seconds
+  Import took 0.024084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/12.png
+  artifactKey: Guid(187e6ff4934aa8c429794d06577dcbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/12.png using Guid(187e6ff4934aa8c429794d06577dcbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69d99a3e6656bd4888ee7d7d589ae6c') in 0.019419 seconds
+  Import took 0.025086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/11.png
+  artifactKey: Guid(2f07a1cb648a26846b7990a26526a2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/11.png using Guid(2f07a1cb648a26846b7990a26526a2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb1e6f8cf27df304ec3d1ae292d08bf') in 0.017118 seconds
+  Import took 0.023375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Character/1x/Body.png
+  artifactKey: Guid(22b394f2b7877d14ab7178f816e08834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Character/1x/Body.png using Guid(22b394f2b7877d14ab7178f816e08834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1236fff5f732d731c000bf66965dc9') in 0.055386 seconds
+  Import took 0.063015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003617 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/1.png
+  artifactKey: Guid(42a457f26103724439c83da2e4ebb6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/1.png using Guid(42a457f26103724439c83da2e4ebb6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571b56305ec7f97de7b362037b56767e') in 0.037904 seconds
+  Import took 0.052411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000684 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/8.png
+  artifactKey: Guid(b4857d93360c1804bbc5ce0d6f9e9167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/8.png using Guid(b4857d93360c1804bbc5ce0d6f9e9167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3489383be431bbdd8d1a38426b660d00') in 0.026311 seconds
+  Import took 0.038708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/6.png
+  artifactKey: Guid(e27a5d1c802fe3045bdea19784af52dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/6.png using Guid(e27a5d1c802fe3045bdea19784af52dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7d5d1a3146c9665b38257a39dc5646') in 0.030808 seconds
+  Import took 0.072029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/5.png
+  artifactKey: Guid(66c09a61b6f46294f97b39007ea8e302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/5.png using Guid(66c09a61b6f46294f97b39007ea8e302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e43ae98c7f93ba77c9d49ff7552f8cb') in 0.033713 seconds
+  Import took 0.051215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/3.png
+  artifactKey: Guid(3947ce27a3998874f832d9df4fcff879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/3.png using Guid(3947ce27a3998874f832d9df4fcff879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27cecb37ccc351673f77b5109fc6c67f') in 0.027732 seconds
+  Import took 0.057517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000739 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/7.png
+  artifactKey: Guid(ca23a0c35f5dbda41ba3bf68176e3e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/7.png using Guid(ca23a0c35f5dbda41ba3bf68176e3e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ed0b1a4347921e2def51aab7897ac1') in 0.035912 seconds
+  Import took 0.052868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001176 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/9.png
+  artifactKey: Guid(d70df6ce057194445a2cf4f5ac18a3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/9.png using Guid(d70df6ce057194445a2cf4f5ac18a3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830a50f6eb4774531dc72c110e205218') in 0.031117 seconds
+  Import took 0.041370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/Sprites/AnimatedFlower/Asset 14-7.png
+  artifactKey: Guid(229b997e1875e1f4cad2bce6aa6b7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedFlower/Asset 14-7.png using Guid(229b997e1875e1f4cad2bce6aa6b7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7395aacebd8bca5a9fffddcdbd52ddc9') in 0.057761 seconds
+  Import took 0.067709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/2.png
+  artifactKey: Guid(fd2451b0ba9fd834ca712f547f67ada8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/2.png using Guid(fd2451b0ba9fd834ca712f547f67ada8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8832d2913855373735a7af5f3e423741') in 0.028823 seconds
+  Import took 0.040591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/Asset 40.png
+  artifactKey: Guid(b5aca7381c0044d4ba7c0a2782f828f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Tiles/png/128x128/Asset 40.png using Guid(b5aca7381c0044d4ba7c0a2782f828f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06d0bd45c9b93e4a97102cb82c841d6') in 0.020715 seconds
+  Import took 0.027036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/13.png
+  artifactKey: Guid(494efb3446e24c44485930c788b885aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/13.png using Guid(494efb3446e24c44485930c788b885aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad7dbd8fb174499452a2306910da997') in 0.016907 seconds
+  Import took 0.022292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Sprites/AnimatedFlower/Asset 14-6.png
+  artifactKey: Guid(2275e1857a8f6ad4b98d55a6aac5b44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedFlower/Asset 14-6.png using Guid(2275e1857a8f6ad4b98d55a6aac5b44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3084005674d451a1119351e5b85644f2') in 0.027697 seconds
+  Import took 0.039354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Enemies/png/256x256/MaceFallGood.png
+  artifactKey: Guid(3fe0e7f610442134a99482dfdf17c347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Platform Game Assets/Enemies/png/256x256/MaceFallGood.png using Guid(3fe0e7f610442134a99482dfdf17c347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab54dbc5fe658f6245a741eaeecad9f') in 0.025526 seconds
+  Import took 0.031304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Sprites/AnimatedFlower/Asset 14-5.png
+  artifactKey: Guid(bbf5097944547d949b66454edc2ca9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedFlower/Asset 14-5.png using Guid(bbf5097944547d949b66454edc2ca9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddf6f6362aaaab8834ab1c3a9e401d2') in 0.027905 seconds
+  Import took 0.034389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/14.png
+  artifactKey: Guid(32706546e39e96b4087876290d55ee90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/14.png using Guid(32706546e39e96b4087876290d55ee90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7747396140e03869fe242773be06daae') in 0.021955 seconds
+  Import took 0.027375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/4.png
+  artifactKey: Guid(55ef0bfe775c190469163b3b89fbe01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/Free Platform Game Assets/Update 1.9/New Water Animation (2D view)/128x128/4.png using Guid(55ef0bfe775c190469163b3b89fbe01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b020c1d41d8928f2d9b0825df5065d0') in 0.017658 seconds
+  Import took 0.022857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Sprites/AnimatedFlower/Asset 14-4.png
+  artifactKey: Guid(723e3ba157e721644ad0d0609879a36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AnimatedFlower/Asset 14-4.png using Guid(723e3ba157e721644ad0d0609879a36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6451ec5a148c4891d33e31213aa937e') in 0.020627 seconds
+  Import took 0.026414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 664.876154 seconds.
+  path: Assets/Scripts/Canvas/GameOverScreen.cs
+  artifactKey: Guid(a31c068d5d8b6c5458e852396bcefa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Canvas/GameOverScreen.cs using Guid(a31c068d5d8b6c5458e852396bcefa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bd0dba3ba3eca47662abdb6c6db6ad') in 0.036950 seconds
+  Import took 0.047539 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002077 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.648 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.8 MB.
+System memory in use after: 163.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2518.
+Total: 2.938900 ms (FindLiveObjects: 0.385400 ms CreateObjectMapping: 0.112400 ms MarkObjects: 2.248800 ms  DeleteObjects: 0.190800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001274 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.813 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.9 MB.
+System memory in use after: 163.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2522.
+Total: 3.935700 ms (FindLiveObjects: 0.420800 ms CreateObjectMapping: 0.180900 ms MarkObjects: 3.159300 ms  DeleteObjects: 0.172800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001408 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.766 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.9 MB.
+System memory in use after: 163.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2526.
+Total: 3.428400 ms (FindLiveObjects: 0.282400 ms CreateObjectMapping: 0.122800 ms MarkObjects: 2.799100 ms  DeleteObjects: 0.222300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001716 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.691 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.9 MB.
+System memory in use after: 163.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 4.715700 ms (FindLiveObjects: 0.426100 ms CreateObjectMapping: 0.176900 ms MarkObjects: 3.927900 ms  DeleteObjects: 0.182700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1349.553371 seconds.
+  path: Assets/LucaTestScene/TutorialScene.unity
+  artifactKey: Guid(571415f5f5463464592b32710397f56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LucaTestScene/TutorialScene.unity using Guid(571415f5f5463464592b32710397f56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc1acd7b5f270856101f8f6e4385715') in 0.031572 seconds
+  Import took 0.037253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 933.132068 seconds.
+  path: Assets/Animations/SceneTransition/SceneEnter.anim
+  artifactKey: Guid(7e0ec10a6eb42a14b985bcf5c305d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/SceneTransition/SceneEnter.anim using Guid(7e0ec10a6eb42a14b985bcf5c305d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730fba75326816b9f0e9e84afb0e8146') in 0.013677 seconds
+  Import took 0.020749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006568 seconds.
+  path: Assets/Animations/SceneTransition/SceneEnter.anim
+  artifactKey: Guid(7e0ec10a6eb42a14b985bcf5c305d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/SceneTransition/SceneEnter.anim using Guid(7e0ec10a6eb42a14b985bcf5c305d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730fba75326816b9f0e9e84afb0e8146') in 0.007177 seconds
+  Import took 0.015105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.496516 seconds.
+  path: Assets/Animations/SceneTransition/SceneExit.anim
+  artifactKey: Guid(016b2b5b539a98942bec10a8772f454c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/SceneTransition/SceneExit.anim using Guid(016b2b5b539a98942bec10a8772f454c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735b437a65e9fc0d203f5586e2d559c8') in 0.008236 seconds
+  Import took 0.016955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009262 seconds.
+  path: Assets/Animations/SceneTransition/SceneExit.anim
+  artifactKey: Guid(016b2b5b539a98942bec10a8772f454c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/SceneTransition/SceneExit.anim using Guid(016b2b5b539a98942bec10a8772f454c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735b437a65e9fc0d203f5586e2d559c8') in 0.007242 seconds
+  Import took 0.014346 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001265 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.652 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.9 MB.
+System memory in use after: 163.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2534.
+Total: 4.613600 ms (FindLiveObjects: 0.408200 ms CreateObjectMapping: 0.131600 ms MarkObjects: 3.868800 ms  DeleteObjects: 0.202400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002355 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.514 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.9 MB.
+System memory in use after: 163.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2538.
+Total: 4.452500 ms (FindLiveObjects: 0.361800 ms CreateObjectMapping: 0.133200 ms MarkObjects: 3.795800 ms  DeleteObjects: 0.159900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.685 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.9 MB.
+System memory in use after: 164.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2542.
+Total: 5.450300 ms (FindLiveObjects: 1.185900 ms CreateObjectMapping: 0.328100 ms MarkObjects: 3.731200 ms  DeleteObjects: 0.202200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 497.491162 seconds.
+  path: Assets/LucaTestScene/EndLevelScene.unity
+  artifactKey: Guid(a114b81712a0c9343832054746a604d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LucaTestScene/EndLevelScene.unity using Guid(a114b81712a0c9343832054746a604d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bc06939d7399a803e7f11466fba896') in 0.038253 seconds
+  Import took 0.043097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.688916 seconds.
+  path: Assets/LucaTestScene/TutorialScene.unity
+  artifactKey: Guid(571415f5f5463464592b32710397f56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LucaTestScene/TutorialScene.unity using Guid(571415f5f5463464592b32710397f56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28775e3ee0daa6607825a23b234193ae') in 0.006847 seconds
+  Import took 0.021940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.706016 seconds.
+  path: Assets/Prefabs/LevelTransition
+  artifactKey: Guid(b0de81c1fabd26e4898387feae294bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelTransition using Guid(b0de81c1fabd26e4898387feae294bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b943d0693eeb8682e3d4859313612f6') in 0.008420 seconds
+  Import took 0.016790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.359380 seconds.
+  path: Assets/Prefabs/LevelTransition/LevelTransition.prefab
+  artifactKey: Guid(d878cb46877f25246b123be1c6ca9157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelTransition/LevelTransition.prefab using Guid(d878cb46877f25246b123be1c6ca9157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f847e1c2bf493e9efadab361768bdc') in 0.108021 seconds
+  Import took 0.116455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.338766 seconds.
+  path: Assets/Prefabs/LevelTransition/SceneTransition.prefab
+  artifactKey: Guid(998f119fa056b434c98fb8e845ed9193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelTransition/SceneTransition.prefab using Guid(998f119fa056b434c98fb8e845ed9193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d683c74032c3d86d694c0893807e72b') in 0.026179 seconds
+  Import took 0.032602 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002694 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.577 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.0 MB.
+System memory in use after: 164.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2550.
+Total: 4.200700 ms (FindLiveObjects: 0.613200 ms CreateObjectMapping: 0.208900 ms MarkObjects: 3.242900 ms  DeleteObjects: 0.133800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 422.902589 seconds.
+  path: Assets/LucaTestScene/TutorialScene.unity
+  artifactKey: Guid(571415f5f5463464592b32710397f56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LucaTestScene/TutorialScene.unity using Guid(571415f5f5463464592b32710397f56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2be0e84f0f962b6821aec32d4e829dc') in 0.026434 seconds
+  Import took 0.033724 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001791 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.500 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.0 MB.
+System memory in use after: 164.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2554.
+Total: 2.677600 ms (FindLiveObjects: 0.378100 ms CreateObjectMapping: 0.125900 ms MarkObjects: 2.035100 ms  DeleteObjects: 0.136900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 648.780343 seconds.
+  path: Assets/LucaTestScene/EndLevelScene.unity
+  artifactKey: Guid(a114b81712a0c9343832054746a604d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LucaTestScene/EndLevelScene.unity using Guid(a114b81712a0c9343832054746a604d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6eaeb4713a9efde689c8bfe2f21ff6') in 0.031931 seconds
+  Import took 0.044550 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001209 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.661 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.0 MB.
+System memory in use after: 164.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2558.
+Total: 4.919700 ms (FindLiveObjects: 1.351800 ms CreateObjectMapping: 0.239600 ms MarkObjects: 3.172900 ms  DeleteObjects: 0.153700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001213 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.370 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.0 MB.
+System memory in use after: 164.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2562.
+Total: 4.340700 ms (FindLiveObjects: 0.475500 ms CreateObjectMapping: 0.199900 ms MarkObjects: 3.533200 ms  DeleteObjects: 0.130300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001699 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.604 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.0 MB.
+System memory in use after: 164.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2566.
+Total: 4.555700 ms (FindLiveObjects: 0.471800 ms CreateObjectMapping: 0.164600 ms MarkObjects: 3.772400 ms  DeleteObjects: 0.144100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001241 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.600 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.0 MB.
+System memory in use after: 164.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2570.
+Total: 3.572700 ms (FindLiveObjects: 0.547100 ms CreateObjectMapping: 0.164200 ms MarkObjects: 2.722700 ms  DeleteObjects: 0.137100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 310.271690 seconds.
   path: Assets/LucaTestScene/LucaTestScene.unity
   artifactKey: Guid(dc1735eb216248144b675c2fc243597b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LucaTestScene/LucaTestScene.unity using Guid(dc1735eb216248144b675c2fc243597b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78139dfd0905e6318f4fae7ffeadc9ad') in 0.033455 seconds
-  Import took 0.049252 seconds .
+Start importing Assets/LucaTestScene/LucaTestScene.unity using Guid(dc1735eb216248144b675c2fc243597b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610d7f95bb6e4b07c724d6d1e3bd1980') in 0.028031 seconds
+  Import took 0.045893 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 25.078855 seconds.
+  path: Assets/LucaTestScene/TutorialScene.unity
+  artifactKey: Guid(571415f5f5463464592b32710397f56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LucaTestScene/TutorialScene.unity using Guid(571415f5f5463464592b32710397f56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455439bfd920d375e3fcf4ea359e3b34') in 0.008558 seconds
+  Import took 0.021713 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002557 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.621 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.1 MB.
+System memory in use after: 164.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2574.
+Total: 3.281400 ms (FindLiveObjects: 0.314100 ms CreateObjectMapping: 0.174000 ms MarkObjects: 2.541200 ms  DeleteObjects: 0.250500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001211 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.564 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.1 MB.
+System memory in use after: 164.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2578.
+Total: 3.431300 ms (FindLiveObjects: 0.928400 ms CreateObjectMapping: 0.183200 ms MarkObjects: 2.165400 ms  DeleteObjects: 0.151800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001289 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.615 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.1 MB.
+System memory in use after: 164.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2582.
+Total: 4.161100 ms (FindLiveObjects: 0.389600 ms CreateObjectMapping: 0.133800 ms MarkObjects: 3.488300 ms  DeleteObjects: 0.146000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001215 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.579 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.1 MB.
+System memory in use after: 164.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2586.
+Total: 2.984500 ms (FindLiveObjects: 0.440300 ms CreateObjectMapping: 0.205400 ms MarkObjects: 2.205200 ms  DeleteObjects: 0.132100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.472 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.1 MB.
+System memory in use after: 164.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2590.
+Total: 2.872400 ms (FindLiveObjects: 0.308300 ms CreateObjectMapping: 0.109700 ms MarkObjects: 2.315700 ms  DeleteObjects: 0.137300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

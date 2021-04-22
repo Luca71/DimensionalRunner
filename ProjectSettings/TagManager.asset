@@ -10,6 +10,7 @@ TagManager:
   - GraveStone
   - Dimension1
   - Dimension2
+  - ScoreText
   layers:
   - Default
   - TransparentFX

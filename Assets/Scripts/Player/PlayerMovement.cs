@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
 
     // steps sound
     [SerializeField] AudioClip stepSounds;
+    [SerializeField] AudioClip dieSound;
     [SerializeField] AudioSource audioSource;
     [SerializeField] Transform startSpawnPoint;
     
@@ -77,6 +78,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Die()
     {
+        audioSource.PlayOneShot(dieSound);
         GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         Vector3 currPos = transform.position;
         AnimationAndMovementState(false);

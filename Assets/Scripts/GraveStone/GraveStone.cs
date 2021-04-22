@@ -47,7 +47,13 @@ public class GraveStone : MonoBehaviour
             other.gameObject.CompareTag("Dimension2") || other.gameObject.CompareTag("GraveStone"))
             Physics2D.IgnoreCollision(other.collider, GetComponent<BoxCollider2D>());
     }
-    
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.GetComponent<DestroyGravestone>() != null)
+            Destroy(this.gameObject);
+    }
+
     private void FixedUpdate()
     {
         

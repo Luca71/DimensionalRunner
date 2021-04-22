@@ -15,17 +15,22 @@ public class ScoreManager : MonoBehaviour
     public Dictionary<string, int> highScores;
 
     // in game score text
-    [SerializeField] TMP_Text scoreText;
+    TMP_Text scoreText;
 
     private void Awake()
     {
         MakeInstance();
+        DontDestroyOnLoad(this);
     }
 
     private void Start()
     {
         ResetCoinToZero();
-        scoreText.text = "Score: " + collectedCoin.ToString("00000");
+        scoreText = GameObject.FindGameObjectWithTag("ScoreText").GetComponent<TMP_Text>();
+        if (scoreText == null)
+            return;
+        else
+            scoreText.text = "Score: " + collectedCoin.ToString("00000");
     }
 
     // aggiungere funzionalità
@@ -34,6 +39,13 @@ public class ScoreManager : MonoBehaviour
     {
         collectedCoin += value;
         scoreText.text = "Score: " + collectedCoin.ToString("00000");
+    }
+
+    public int GetTotalScore()
+    {
+        int lostPointsForTime = (int)(timeFromStart * 0.10);
+        int totalScore = (collectedCoin - lostPointsForTime) * 120;
+        return totalScore;
     }
 
     public void ResetCoinToZero()
