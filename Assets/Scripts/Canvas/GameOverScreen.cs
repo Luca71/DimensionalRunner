@@ -18,8 +18,13 @@ public class GameOverScreen : MonoBehaviour
 
     public void SaveScoreAndName()
     {
-        string name = HighScoreInput.text == "" ? "USER0" : HighScoreInput.text;
+        string name = HighScoreInput.text == "" ? "USER0" : GetPlayerName();
         ScoreManager.Instance.SetScore(name, ScoreManager.Instance.GetTotalScore());
+    }
+
+    private string GetPlayerName()
+    {
+        return HighScoreInput.text.Length > 5 ? HighScoreInput.text.Substring(0, 5) : HighScoreInput.text;
     }
 
     public void ToMainMenu()

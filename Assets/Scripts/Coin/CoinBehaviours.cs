@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CoinBehaviours : MonoBehaviour
 {
-    [SerializeField] int value = 1;
+    [SerializeField] int value = 10;
     [SerializeField] AudioClip coinSound;
 
     private void OnTriggerEnter2D(Collider2D other)

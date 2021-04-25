@@ -87,9 +87,14 @@ public class ScoreManager : MonoBehaviour
 
     public void SetScore(string name, int lastGameScore)
     {
-        // fare giro su dizionario e cercare nome, poi controllo lo score e lo sostituisco
-        // se non c'è key aggiungo
-        highScores.Add(name, lastGameScore);
+        if (highScores.ContainsKey(name))
+        {
+            highScores[name] = lastGameScore;
+        }
+        else
+        {
+            highScores.Add(name, lastGameScore);
+        }
     }
 
     void ScoreTableUpdate()
