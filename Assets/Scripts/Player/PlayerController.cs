@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public class PlayerController : MonoBehaviour
 {
-	[SerializeField] private float m_JumpForce = 400f;                                  
+	[SerializeField] private float m_JumpForce = 325f;                                  
 	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;  
 	[SerializeField] private bool m_AirControl = false;                         
 	[SerializeField] private LayerMask m_WhatIsGround;                          

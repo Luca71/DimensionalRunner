@@ -20,6 +20,7 @@ public class GraveStone : MonoBehaviour
     bool canShowGhost;
     Rigidbody2D rb;
     GameObject[] graveStones;
+    float GravestoneRadiusCheck;
 
 
     private void Awake()
@@ -32,6 +33,7 @@ public class GraveStone : MonoBehaviour
     void Start()
     {
         Sprite.sprite = GetRandomSprite();
+        GravestoneRadiusCheck = Sprite.bounds.size.x * 0.5f;
     }
 
     // Update is called once per frame
@@ -50,7 +52,7 @@ public class GraveStone : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.GetComponent<DestroyGravestone>() != null)
+        if (other.gameObject.GetComponent<DestroyGravestone>() != null) // destroy in water
             Destroy(this.gameObject);
     }
 
@@ -58,7 +60,7 @@ public class GraveStone : MonoBehaviour
     {
         
         // destroy other closer GraveStone
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, k_GroundedRadius, WhatIsGraveStone);
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, GravestoneRadiusCheck, WhatIsGraveStone);
         if (colliders.Length > 1)
         {
             for (int i = 1; i < colliders.Length; i++)
