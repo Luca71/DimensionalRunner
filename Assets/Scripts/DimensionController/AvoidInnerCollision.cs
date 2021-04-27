@@ -16,7 +16,7 @@ public class AvoidInnerCollision : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Vector3 point = other.transform.position + Vector3.up * 0.48f;
+            Vector3 point = other.transform.position + Vector3.up * 0.48f + Vector3.left * 0.48f;
             if (myCol.bounds.Contains(point))
             {
                 other.transform.position += Vector3.down * 0.5f;

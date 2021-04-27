@@ -40,7 +40,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8158392999440067803}
   serializedVersion: 7
-  lengthInSec: 0.5
+  lengthInSec: 1.6
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -4948,4 +4948,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 100
-  coinSound: {fileID: 0}
+  coinSound: {fileID: 8300000, guid: 3495c2806a146c745b5875bc05bcfc3c, type: 3}

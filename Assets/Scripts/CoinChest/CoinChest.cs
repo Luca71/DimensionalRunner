@@ -24,9 +24,9 @@ public class CoinChest : MonoBehaviour
             if (!isOpen)
             {
                 anim.enabled = true;
+                other.GetComponent<AudioSource>().PlayOneShot(coinSound);
                 particles.Play();
                 ScoreManager.Instance.AddCoins(value);
-                other.GetComponent<AudioSource>().PlayOneShot(coinSound);
                 isOpen = true;
             }
         }
