@@ -137,10 +137,5 @@ public class EnemyMovementFall : MonoBehaviour
             myRigidbody.velocity = Vector2.zero;
             EnemyState = EnemyFallState.afterAttack;
         }
-
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            Player[0].transform.position = new Vector2(-1, 10);
-        }
     }
 }

@@ -78,12 +78,4 @@ public class EnemyMovementJump : MonoBehaviour
             }
         }
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            //Player[0].transform.position = new Vector2(-1, 10);
-        }
-    }
 }
