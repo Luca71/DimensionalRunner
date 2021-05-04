@@ -12,6 +12,7 @@ public class GameOverScreen : MonoBehaviour
 
     private void Start()
     {
+        ScoreManager.Instance.ResetTimer(); // calculte the total gamplay time before subtratting it from score;
         ScoreText.text = ScoreManager.Instance.GetTotalScore().ToString("000000");
         Debug.Log(Application.persistentDataPath);
     }

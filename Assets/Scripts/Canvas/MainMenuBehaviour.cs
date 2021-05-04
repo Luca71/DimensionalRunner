@@ -11,14 +11,25 @@ public class MainMenuBehaviour : MonoBehaviour
     
     public void TutorialOnClick()
     {
-        StartCoroutine("ExitScene");
+        StartCoroutine(ExitScene( "TutorialScene", true));
+    }
+    public void SettingsOnClick()
+    {
+        StartCoroutine(ExitScene( "Settings", false));
     }
 
-    IEnumerator ExitScene()
+    public void PlayOnClick()
+    {
+        StartCoroutine(ExitScene( "Level1", true));
+    }
+
+    IEnumerator ExitScene(string sceneName, bool resetTime)
     {
         SceneTransitionAnimator.SetTrigger("exit");
         ScoreManager.Instance.ResetCoinToZero();
         yield return new WaitForSeconds(0.4f);
-        SceneManager.LoadScene("TutorialScene");
+        if(resetTime)
+            ScoreManager.Instance.ResetTimer();
+        SceneManager.LoadScene(sceneName);
     }
 }

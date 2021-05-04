@@ -9,10 +9,13 @@ public class Pendulum : MonoBehaviour
     public float Force = 10f;
     float currentTimePassed = 0f;
     Vector2 ForceVec;
+    AudioSource myAudio;
+
     void Start()
     {
         cForce = GetComponent<ConstantForce2D>();
         ForceVec.x = Force;
+        myAudio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -24,6 +27,7 @@ public class Pendulum : MonoBehaviour
             currentTimePassed = 0f;
             Force = -Force;
             ForceVec.x = Force;
+            myAudio.PlayOneShot(myAudio.clip);
         }
         cForce.relativeForce = ForceVec;
     }

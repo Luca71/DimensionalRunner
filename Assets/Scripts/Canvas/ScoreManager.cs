@@ -24,8 +24,10 @@ public class ScoreManager : MonoBehaviour
     [HideInInspector]
     public int collectedCoin = 0;
     [HideInInspector]
-    public int timeFromStart = 0;
+    public float timeFromStart = 0;
     public Dictionary<string, int> highScores;
+    public float musicLevel = 0;
+    public float sfxLevel = 0;
 
     
 
@@ -43,14 +45,11 @@ public class ScoreManager : MonoBehaviour
         
         highScores = new Dictionary<string, int>();
 
-        for (int i = 0; i < 10; i++)
-        {
-            highScores.Add("Host" + i, i);
-        }
-
-        ScoreTableUpdate();
+        SetFakeScores();
 
         //LoadBestScore();
+        ScoreTableUpdate();
+
     }
 
     // aggiungere funzionalità
@@ -85,6 +84,20 @@ public class ScoreManager : MonoBehaviour
         ScoreTableUpdate();
     }
 
+    public void SetFakeScores()
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            highScores.Add("None" + i, i * 10);
+        }
+    }
+
+    public void SetSoundsVolume(float musicVol, float sfxVol)
+    {
+        musicLevel = musicVol;
+        sfxLevel = sfxVol;
+    }
+
     public void SetScore(string name, int lastGameScore)
     {
         if (highScores.ContainsKey(name))
@@ -99,7 +112,6 @@ public class ScoreManager : MonoBehaviour
 
     void ScoreTableUpdate()
     {
-
         if (highScores.Count == 0) return;
 
         int num = highScores.Count;
@@ -107,11 +119,12 @@ public class ScoreManager : MonoBehaviour
         {
             num = 5;
         }
-       
         highScores = highScores.OrderByDescending(x => x.Value).ToDictionary(X => X.Key, X => X.Value);
-        //var a = from entry in highScores orderby entry.Value descending select entry;
-        
         highScores = highScores.Take(num).ToDictionary(X => X.Key, X => X.Value);
+    }
 
+    public void ResetTimer()
+    {
+        timeFromStart = Time.time;
     }
 }

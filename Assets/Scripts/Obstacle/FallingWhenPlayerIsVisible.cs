@@ -28,8 +28,12 @@ public class FallingWhenPlayerIsVisible : MonoBehaviour
     [HideInInspector]
     public float actualAngle = 0f;
 
+    AudioSource audio;
+
+
     private void Start()
     {
+        audio = GetComponent<AudioSource>();
         speed = FallingSpeed;
         offset = Vector3.zero;
         parent = transform.parent;
@@ -39,6 +43,7 @@ public class FallingWhenPlayerIsVisible : MonoBehaviour
             startingPos = Vector3.zero;
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
     }
+
     void Update()
     {
         if (player == null) return;
@@ -68,16 +73,29 @@ public class FallingWhenPlayerIsVisible : MonoBehaviour
 
             if(distance < 0.01f)
             {
+                
                 if (speed == FallingSpeed)
+                {
+                    audio.PlayOneShot(audio.clip, 1.8f);
                     speed = GoUpSpeed;
+                }
                 else
+                {
                     speed = FallingSpeed;
+                }
                 index = (index + 1) % Edges.Count;
                 visible = false;
             }
         }
     }
+
+    private void PlaySound()
+    {
+
+    }
 }
+
+
 [CustomEditor(typeof(FallingWhenPlayerIsVisible)), CanEditMultipleObjects]
 public class FreeMoveHandleFallingWhenPlayerIsVisible : Editor
 {
@@ -160,7 +178,6 @@ public class FreeMoveHandleFallingWhenPlayerIsVisible : Editor
         width = instance.GetComponent<SpriteRenderer>().size.x * scaleFactor * instance.transform.lossyScale.x;
         height = instance.GetComponent<SpriteRenderer>().size.y * scaleFactor * instance.transform.lossyScale.y;
     }
-
 
     private void SetEdges()
     {

@@ -12,6 +12,18 @@ EditorBuildSettings:
     path: Assets/LucaTestScene/TutorialScene.unity
     guid: 571415f5f5463464592b32710397f56d
   - enabled: 1
+    path: Assets/LucaTestScene/Level1.unity
+    guid: 41805882f8b98fb4db537ac2298b2071
+  - enabled: 1
+    path: Assets/LucaTestScene/Level2.unity
+    guid: 2162449273c65d94d96d9dbefad5ab8b
+  - enabled: 1
+    path: Assets/LucaTestScene/Level3.unity
+    guid: 425bac23194d9de4aa4f0be958785274
+  - enabled: 1
     path: Assets/LucaTestScene/EndLevelScene.unity
     guid: a114b81712a0c9343832054746a604d3
+  - enabled: 1
+    path: Assets/LucaTestScene/Settings.unity
+    guid: 2b19c506377f7ba43a63bfabdf38b8e3
   m_configObjects: {}

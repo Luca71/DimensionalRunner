@@ -160,8 +160,8 @@ public class PendulumMovement : MonoBehaviour
 		Bob.transform.up = pivot_p - bob_p;
 		return currentStatePosition + movementDelta;
 
-		float distance = Vector3.Distance(pivot_p, currentStatePosition + movementDelta);
-		return this.GetPointOnLine(pivot_p, currentStatePosition + movementDelta, distance <= this.ropeLength ? distance : this.ropeLength);
+        //float distance = Vector3.Distance(pivot_p, currentStatePosition + movementDelta);
+		//return this.GetPointOnLine(pivot_p, currentStatePosition + movementDelta, distance <= this.ropeLength ? distance : this.ropeLength);
 	}
 
 	Vector3 GetPointOnLine(Vector3 start, Vector3 end, float distanceFromStart)

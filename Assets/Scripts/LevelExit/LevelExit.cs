@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class LevelExit : MonoBehaviour
 {
+    [SerializeField] string NextScene;
     [SerializeField] Animator SceneTransitionAnimator;
     [SerializeField] AudioClip endLevelSound;
 
@@ -21,6 +22,6 @@ public class LevelExit : MonoBehaviour
     {
         SceneTransitionAnimator.SetTrigger("exit");
         yield return new WaitForSeconds(0.4f);
-        SceneManager.LoadScene("EndLevelScene");
+        SceneManager.LoadScene(NextScene);
     }
 }

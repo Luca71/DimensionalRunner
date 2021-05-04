@@ -428,8 +428,8 @@ MonoBehaviour:
   LayerImage: {fileID: 5839821357303567282}
   parallaxEffect: 0.3
   dimensions:
-  - {fileID: 21300000, guid: 65bbfee29a0c7b74c888f663bbfcc0d7, type: 3}
-  - {fileID: 21300000, guid: 51590d8827825c64da153fba1db22837, type: 3}
+  - {fileID: 21300000, guid: d6fa27d9b44bc2c42a75046817a7fa4b, type: 3}
+  - {fileID: 21300000, guid: 26a62f192a8e65d44b61cf1f201e4236, type: 3}
 --- !u!1 &5839821355967244493
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,8 +1024,8 @@ MonoBehaviour:
   LayerImage: {fileID: 5839821356007906894}
   parallaxEffect: 0.1
   dimensions:
-  - {fileID: 21300000, guid: 7abe24d6bac63134491f3dc483f8e1ff, type: 3}
-  - {fileID: 21300000, guid: f8abd3a9ee9635f43ae1d5411ce2575d, type: 3}
+  - {fileID: 21300000, guid: 5931c80759fd9f444948000f95b9ff38, type: 3}
+  - {fileID: 21300000, guid: 8213d477e2a763741a897aa7d7c528f6, type: 3}
 --- !u!1 &5839821356633481114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,8 +1076,8 @@ MonoBehaviour:
   LayerImage: {fileID: 5839821355488214362}
   parallaxEffect: 0.6
   dimensions:
-  - {fileID: 21300000, guid: f60289080c765c54b8c60e4b43f3ba35, type: 3}
-  - {fileID: 21300000, guid: d6fcbb07b3bf54d4a8b346e5497130e7, type: 3}
+  - {fileID: 21300000, guid: 5e4ba70f981b546478c088ed9c7f3544, type: 3}
+  - {fileID: 21300000, guid: 2f19460abbda8884f963b5fc0c75ca2b, type: 3}
 --- !u!1 &5839821356750025704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1672,8 +1672,8 @@ MonoBehaviour:
   LayerImage: {fileID: 5839821355810646988}
   parallaxEffect: 0.2
   dimensions:
-  - {fileID: 21300000, guid: bd74e5cf7a77de14e83b2c3d61b52547, type: 3}
-  - {fileID: 21300000, guid: 2a1e714a30f48ce4e93a7044c87755ee, type: 3}
+  - {fileID: 21300000, guid: dacb1544f1ecfdf4e8b1c6948ec3ad9d, type: 3}
+  - {fileID: 21300000, guid: 02a991ac783cf584997871d0c25d0fb7, type: 3}
 --- !u!1 &5839821357158405453
 GameObject:
   m_ObjectHideFlags: 0

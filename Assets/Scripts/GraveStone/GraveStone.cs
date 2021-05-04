@@ -10,7 +10,7 @@ public class GraveStone : MonoBehaviour
 
     [SerializeField] LayerMask WhatIsGraveStone;
     [SerializeField] Transform m_GroundCheck;
-    float k_GroundedRadius = 1f; // Radius of the overlap circle to determine if grounded
+    //float k_GroundedRadius = 1f; // Radius of the overlap circle to determine if grounded
 
     [SerializeField] SpriteRenderer Sprite;
     [SerializeField] Sprite[] sprites;

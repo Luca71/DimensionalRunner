@@ -12,16 +12,40 @@ public class AvoidInnerCollision : MonoBehaviour
         myCol = GetComponent<CompositeCollider2D>();
     }
 
-    private void OnCollisionStay2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
-        {
-            Vector3 point = other.transform.position + Vector3.up * 0.48f + Vector3.left * 0.48f;
-            if (myCol.bounds.Contains(point))
-            {
-                other.transform.position += Vector3.down * 0.5f;
-            }
-            Debug.Log(myCol.bounds.Contains(point));
-        }
+            ChangeDimensionController.canChange = false;
     }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+            ChangeDimensionController.canChange = true;
+    }
+
+    //private void OnCollisionStay2D(Collision2D other)
+    //{
+    //    if (other.gameObject.CompareTag("Player"))
+    //    {
+    //        Vector3 point = other.transform.position + Vector3.up * 0.48f;
+    //        if (myCol.bounds.Contains(point))
+    //        {
+    //            myCol.isTrigger = true;
+    //        }
+    //    }
+    //}
+
+    //private void OnCollisionEnter2D (Collision2D collision)
+    //{
+    //    Debug.Log("Ontriggerenter");
+    //}
+
+    //private void OnTriggerExit2D(Collider2D other)
+    //{
+    //    if (other.gameObject.CompareTag("Player"))
+    //    {
+    //        myCol.isTrigger = false;
+    //    }
+    //}
 }

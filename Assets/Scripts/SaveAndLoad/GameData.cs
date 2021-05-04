@@ -8,6 +8,10 @@ public class GameData
 {
     [SerializeField]
     public Dictionary<string, int> ScoreTable;
+    [SerializeField]
+    public float musicVolume;
+    [SerializeField]
+    public float sfxVolume;
 
     public GameData()
     {
@@ -16,5 +20,7 @@ public class GameData
     public GameData (ScoreManager scoreMgr)
     {
         ScoreTable = scoreMgr.highScores;
+        musicVolume = scoreMgr.musicLevel;
+        sfxVolume = scoreMgr.sfxLevel;
     }
 }

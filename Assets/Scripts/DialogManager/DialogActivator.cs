@@ -6,6 +6,7 @@ public class DialogActivator : MonoBehaviour
 {
     public string DialogContent;
     public AudioClip PopSound;
+    [SerializeField] AudioClip closeSound;
 
     PlayerMovement player;
     bool isActive;
@@ -35,8 +36,10 @@ public class DialogActivator : MonoBehaviour
             {
                 readed = true;
                 DialogManager.instance.SetText("");
+                player.GetComponent<AudioSource>().PlayOneShot(closeSound);
                 DialogManager.instance.DialogBoxState(false);
                 player.CanMoveToggle(true); // allow player movement
+                isActive = false;
             }
         }
     }
