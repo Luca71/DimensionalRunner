@@ -45,8 +45,8 @@ public class ChangeDimensionController : MonoBehaviour
         Color exColor = renderer.material.GetColor("_Color");
         float alpha = exColor.a < 1 ? 1 : transparency;
         renderer.material.color = new Color(exColor.r, exColor.g, exColor.b, alpha);
-        bool st = collider.isTrigger;
-        collider.isTrigger = !st;
+        bool state = collider.isTrigger;
+        collider.isTrigger = !state;
         collider.GenerateGeometry();
     }
 }

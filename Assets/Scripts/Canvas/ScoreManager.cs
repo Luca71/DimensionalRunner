@@ -29,10 +29,10 @@ public class ScoreManager : MonoBehaviour
     public float musicLevel = 0;
     public float sfxLevel = 0;
 
-    
+    private float penalityMultiplier = 1f;
 
+ 
     public delegate void OnScoreUpdateDelegate(int coins);
-
     public static OnScoreUpdateDelegate OnScoreUpdate;
 
     private void Awake()
@@ -46,8 +46,6 @@ public class ScoreManager : MonoBehaviour
         highScores = new Dictionary<string, int>();
 
         SetFakeScores();
-
-        //LoadBestScore();
         ScoreTableUpdate();
 
     }
@@ -62,8 +60,8 @@ public class ScoreManager : MonoBehaviour
 
     public int GetTotalScore()
     {
-        int lostPointsForTime = (int)(timeFromStart * 0.10);
-        int totalScore = (collectedCoin - lostPointsForTime) * 120;
+        int lostPointsForTime = (int)(timeFromStart * penalityMultiplier);
+        int totalScore = (collectedCoin * 10 - lostPointsForTime * 10) * 5;
         return totalScore;
     }
 
@@ -96,6 +94,18 @@ public class ScoreManager : MonoBehaviour
     {
         musicLevel = musicVol;
         sfxLevel = sfxVol;
+    }
+
+    public bool CheckScoreGraduatory(int lastGameScore)
+    {
+        foreach (var value in highScores.Values)
+        {
+            if(lastGameScore > value)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 
     public void SetScore(string name, int lastGameScore)

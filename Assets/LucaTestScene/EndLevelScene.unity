@@ -1743,6 +1743,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreText: {fileID: 596426574}
+  HighScoreRoot: {fileID: 2044063302}
+  NoHighScoreRoot: {fileID: 1888154885}
   HighScoreInput: {fileID: 1271553938}
   SceneTransitionAnimator: {fileID: 2108124635}
 --- !u!1 &1431062559
@@ -2747,7 +2749,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2044063303
 RectTransform:
   m_ObjectHideFlags: 0

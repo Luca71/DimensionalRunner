@@ -38,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
             // Horizontal move
             horizontalMove = Input.GetAxisRaw("Horizontal") * RunSpeed;
             myAnim.SetFloat("speed", Mathf.Abs(horizontalMove));
+            myAnim.SetFloat("vSpeed", verticalSpeed);
 
             // Jump animation
             if (Input.GetButtonDown("Jump"))
@@ -49,7 +50,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        myAnim.SetFloat("vSpeed", verticalSpeed);
         verticalSpeed = controller.m_Rigidbody2D.velocity.y;
         if(canMove)
             controller.Move(horizontalMove * Time.fixedDeltaTime, canJump);

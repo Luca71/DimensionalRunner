@@ -28,12 +28,13 @@ public class FallingWhenPlayerIsVisible : MonoBehaviour
     [HideInInspector]
     public float actualAngle = 0f;
 
-    AudioSource audio;
+    AudioSource m_audio;
+    [SerializeField] ParticleSystem dust;
 
 
     private void Start()
     {
-        audio = GetComponent<AudioSource>();
+        m_audio = GetComponent<AudioSource>();
         speed = FallingSpeed;
         offset = Vector3.zero;
         parent = transform.parent;
@@ -76,7 +77,8 @@ public class FallingWhenPlayerIsVisible : MonoBehaviour
                 
                 if (speed == FallingSpeed)
                 {
-                    audio.PlayOneShot(audio.clip, 1.8f);
+                    m_audio.PlayOneShot(m_audio.clip, 1.8f);
+                    dust.Play();
                     speed = GoUpSpeed;
                 }
                 else

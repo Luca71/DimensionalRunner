@@ -7,7 +7,8 @@ public class PlayerController : MonoBehaviour
 	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;  
 	[SerializeField] private bool m_AirControl = false;                         
 	[SerializeField] private LayerMask m_WhatIsGround;                          
-	[SerializeField] private Transform m_GroundCheck;                          
+	[SerializeField] private Transform m_GroundCheck;
+	[SerializeField] ParticleSystem dust;
 
 	const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
 	private bool m_Grounded;            // Whether or not the player is grounded.
@@ -23,17 +24,12 @@ public class PlayerController : MonoBehaviour
 	[System.Serializable]
 	public class BoolEvent : UnityEvent<bool> { }
 
-	public BoolEvent OnCrouchEvent;
-
 	private void Awake()
 	{
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
 
 		if (OnLandEvent == null)
 			OnLandEvent = new UnityEvent();
-
-		if (OnCrouchEvent == null)
-			OnCrouchEvent = new BoolEvent();
 	}
 
 	private void FixedUpdate()
@@ -54,20 +50,32 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
+	public void RunDust()
+    {
+		dust.Play();
+	}
 
 	public void Move(float move, bool jump)
 	{
+		if (m_Grounded)
+        {
+			if (Mathf.Abs(m_Rigidbody2D.velocity.x) > 0.1f && Mathf.Abs(m_Rigidbody2D.velocity.x) < 1f)
+            {
+				dust.Play();
+            }
+        }
 		if (m_Grounded || m_AirControl)
 		{
 			// Move the character by finding the target velocity
 			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
+
 			// And then smoothing it out and applying it to the character
 			m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 
 			// If the input is moving the player right and the player is facing left...
 			if (move > 0 && !m_FacingRight)
 			{
-				// ... flip the player.
+				// ... flip the player.	
 				Flip();
 			}
 			// Otherwise if the input is moving the player left and the player is facing right...
