@@ -30,6 +30,7 @@ public class FallingWhenPlayerIsVisible : MonoBehaviour
 
     AudioSource m_audio;
     [SerializeField] ParticleSystem dust;
+    CameraShake cameraShake;
 
 
     private void Start()
@@ -43,6 +44,7 @@ public class FallingWhenPlayerIsVisible : MonoBehaviour
         else
             startingPos = Vector3.zero;
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
+        cameraShake = Camera.main.GetComponent<CameraShake>();
     }
 
     void Update()
@@ -79,6 +81,7 @@ public class FallingWhenPlayerIsVisible : MonoBehaviour
                 {
                     m_audio.PlayOneShot(m_audio.clip, 1.8f);
                     dust.Play();
+                    StartCoroutine (cameraShake.Shake(.15f, .4f));
                     speed = GoUpSpeed;
                 }
                 else
