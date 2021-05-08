@@ -2,9 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
 
 public class FallingWhenPlayerIsVisible : MonoBehaviour
 {
@@ -93,15 +96,12 @@ public class FallingWhenPlayerIsVisible : MonoBehaviour
             }
         }
     }
-
-    private void PlaySound()
-    {
-
-    }
 }
 
 
+#if UNITY_EDITOR
 [CustomEditor(typeof(FallingWhenPlayerIsVisible)), CanEditMultipleObjects]
+
 public class FreeMoveHandleFallingWhenPlayerIsVisible : Editor
 {
     List<Vector3> Edges;
@@ -195,3 +195,4 @@ public class FreeMoveHandleFallingWhenPlayerIsVisible : Editor
             Edges = instance.Edges;
     }
 }
+#endif

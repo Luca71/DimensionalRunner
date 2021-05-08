@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEditor;
 
 public class MoveAroundPerimeter : MonoBehaviour
 {
@@ -49,6 +49,9 @@ public class MoveAroundPerimeter : MonoBehaviour
         }
     }
 }
+
+#if UNITY_EDITOR
+
 [CustomEditor(typeof(MoveAroundPerimeter)), CanEditMultipleObjects]
 public class FreeMoveHandleMoveAroundPerimeter : Editor
 {
@@ -89,3 +92,4 @@ public class FreeMoveHandleMoveAroundPerimeter : Editor
         Edges = instance.Edges;
     }
 }
+#endif

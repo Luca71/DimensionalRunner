@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     bool canMove = true;
     Animator myAnim;
     SpriteRenderer spriteRenderer;
+    Rigidbody2D myRb;
+    BoxCollider2D myCollider;
 
     // steps sound
     [SerializeField] AudioClip stepSounds;
@@ -28,6 +30,8 @@ public class PlayerMovement : MonoBehaviour
     {
         myAnim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        myRb = GetComponent<Rigidbody2D>();
+        myCollider = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -76,7 +80,9 @@ public class PlayerMovement : MonoBehaviour
     void Die()
     {
         audioSource.PlayOneShot(dieSound);
-        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        myRb.velocity = Vector2.zero;
+        myRb.gravityScale = 0;
+        myCollider.enabled = false;
         Vector3 currPos = transform.position;
         AnimationAndMovementState(false);
         SpawnGraveStone(currPos + Vector3.up);
@@ -99,6 +105,8 @@ public class PlayerMovement : MonoBehaviour
     public void ResetStartPosition()
     {
         transform.position = startSpawnPoint.position;
+        myRb.gravityScale = 1;
+        myCollider.enabled = true;
         AnimationAndMovementState(true);
     }
 
