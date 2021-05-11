@@ -12,27 +12,32 @@ public class GameOverScreen : MonoBehaviour
     [SerializeField] TMP_InputField HighScoreInput;
     [SerializeField] Animator SceneTransitionAnimator;
 
+    bool canSaveName;
+
     private void Start()
     {
+        canSaveName = false;
         HighScoreRoot.SetActive(false);
         NoHighScoreRoot.SetActive(false);
         ScoreManager.Instance.ResetTimer(); // calculte the total gamplay time before subtratting it from score;
         ScoreText.text = ScoreManager.Instance.GetTotalScore().ToString("000000");
         Debug.Log(Application.persistentDataPath);
-    }
-
-    public void SaveScoreAndName()
-    {
         if (!ScoreManager.Instance.CheckScoreGraduatory(ScoreManager.Instance.GetTotalScore()))
         {
             // enable not in high score dialog box
             NoHighScoreRoot.SetActive(true);
         }
         else {
+
             HighScoreRoot.SetActive(true);
-            string name = HighScoreInput.text == "" ? "USER0" : GetPlayerName();
-            ScoreManager.Instance.SetScore(name, ScoreManager.Instance.GetTotalScore());
+            canSaveName = true;
         }
+    }
+
+    public void SaveScoreAndName()
+    {
+        string name = HighScoreInput.text == "" ? "USER0" : GetPlayerName();
+        ScoreManager.Instance.SetScore(name, ScoreManager.Instance.GetTotalScore());
     }
 
     private string GetPlayerName()
@@ -42,7 +47,8 @@ public class GameOverScreen : MonoBehaviour
 
     public void ToMainMenu()
     {
-        SaveScoreAndName();
+        if(canSaveName)
+            SaveScoreAndName();
         ScoreManager.Instance.SaveBestScore();
         ScoreManager.Instance.LoadBestScore();
 

@@ -11,6 +11,12 @@ public class AudioPanelSettings : MonoBehaviour
     [SerializeField] Slider SFXSlider;
     [SerializeField] Animator SceneTransitionAnimator;
 
+    private void Start()
+    {
+        musicSlider.value = AudioManager.instance.GetMusicVolume();
+        SFXSlider.value = AudioManager.instance.GetSFXVolume();
+    }
+
     public void SetMusic()
     {
         AudioManager.instance.SetMusicVolume(musicSlider.value);

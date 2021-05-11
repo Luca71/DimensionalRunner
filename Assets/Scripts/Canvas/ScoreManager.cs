@@ -98,14 +98,16 @@ public class ScoreManager : MonoBehaviour
 
     public bool CheckScoreGraduatory(int lastGameScore)
     {
+        bool res = false;
         foreach (var value in highScores.Values)
         {
-            if(lastGameScore > value)
+            if (lastGameScore > value)
             {
-                return true;
+                res = true;
             }
+            break;
         }
-        return false;
+        return res;
     }
 
     public void SetScore(string name, int lastGameScore)

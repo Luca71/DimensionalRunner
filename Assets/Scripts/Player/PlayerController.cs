@@ -44,6 +44,9 @@ public class PlayerController : MonoBehaviour
 		{
 			if (colliders[i].gameObject != gameObject)
 			{
+				CompositeCollider2D DimCollider = colliders[i].gameObject.GetComponent<CompositeCollider2D>();
+				if (DimCollider.isTrigger)
+					continue;
 				m_Grounded = true;
 				if (!wasGrounded)
 					OnLandEvent.Invoke();

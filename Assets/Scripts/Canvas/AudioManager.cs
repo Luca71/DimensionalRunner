@@ -14,6 +14,8 @@ public class AudioManager : MonoBehaviour
     Scene currentScene;
     public static AudioManager instance;
 
+    float volume;
+
     float dVelocity = 0f;
 
     private void Awake()
@@ -62,6 +64,17 @@ public class AudioManager : MonoBehaviour
     private void FadeAudioIn(float value)
     {
         mixer.SetFloat("MasterVolume", Mathf.SmoothDamp(value, 0, ref dVelocity, 0.3f));
+    }
+
+    public float GetMusicVolume()
+    {
+        mixer.GetFloat("MusicVolume", out volume);
+        return volume;
+    }
+    public float GetSFXVolume()
+    {
+        mixer.GetFloat("SFXVolume", out volume);
+        return volume;
     }
 
     public void SetMusicVolume(float value)

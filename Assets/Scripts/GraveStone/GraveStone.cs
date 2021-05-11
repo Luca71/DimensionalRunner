@@ -19,6 +19,7 @@ public class GraveStone : MonoBehaviour
     bool m_Grounded;
     bool canShowGhost;
     Rigidbody2D rb;
+    BoxCollider2D myCollider;
     GameObject[] graveStones;
     float GravestoneRadiusCheck;
 
@@ -26,6 +27,7 @@ public class GraveStone : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        myCollider = GetComponent<BoxCollider2D>();
         graveStones = new GameObject[1];
     }
 
@@ -47,7 +49,9 @@ public class GraveStone : MonoBehaviour
         
         if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Dimension1") || 
             other.gameObject.CompareTag("Dimension2") || other.gameObject.CompareTag("GraveStone"))
-            Physics2D.IgnoreCollision(other.collider, GetComponent<BoxCollider2D>());
+        {
+            Physics2D.IgnoreCollision(other.collider, myCollider);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
