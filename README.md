@@ -1,4 +1,4 @@
-# DimensionalRunner
+# Dimensional Runner
 
 Platform game developed on the basis of game designer students idea at the end of AIV - Accademia Italiana Videogiochi second year of study.
 
