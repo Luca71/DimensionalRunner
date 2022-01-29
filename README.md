@@ -6,6 +6,11 @@ Classic behaviour of platform game have been developed, with the add of platform
 (player need to switch between visible and hidden platform to reach the end of the level), 
 interaction between main character and environment, and funny death animation.
 
+| Developing notes |  |
+| ---- | ---- |
+| **Engine**: | Unity 2D |
+| **Developing language**: | C# |
+
 ### Try the game:
 
 Download [DimensionalRunner](https://github.com/Luca71/DimensionalRunner/blob/main/WindowsBuild/DimensionalRunner_V1.1.zip) playable build and unzip content in a folder.\
