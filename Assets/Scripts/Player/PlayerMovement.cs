@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -15,9 +16,12 @@ public class PlayerMovement : MonoBehaviour
     bool canMove = true;
     Animator myAnim;
     SpriteRenderer spriteRenderer;
+    Rigidbody2D myRb;
+    BoxCollider2D myCollider;
 
     // steps sound
     [SerializeField] AudioClip stepSounds;
+    [SerializeField] AudioClip dieSound;
     [SerializeField] AudioSource audioSource;
     [SerializeField] Transform startSpawnPoint;
     
@@ -26,20 +30,19 @@ public class PlayerMovement : MonoBehaviour
     {
         myAnim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        myRb = GetComponent<Rigidbody2D>();
+        myCollider = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        // debug
-        if (Input.GetKeyDown(KeyCode.F))
-            Die();
-        
         if (canMove)
         {
             // Horizontal move
             horizontalMove = Input.GetAxisRaw("Horizontal") * RunSpeed;
             myAnim.SetFloat("speed", Mathf.Abs(horizontalMove));
+            myAnim.SetFloat("vSpeed", verticalSpeed);
 
             // Jump animation
             if (Input.GetButtonDown("Jump"))
@@ -51,7 +54,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        myAnim.SetFloat("vSpeed", verticalSpeed);
         verticalSpeed = controller.m_Rigidbody2D.velocity.y;
         if(canMove)
             controller.Move(horizontalMove * Time.fixedDeltaTime, canJump);
@@ -77,7 +79,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Die()
     {
-        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        audioSource.PlayOneShot(dieSound);
+        myRb.velocity = Vector2.zero;
+        myRb.gravityScale = 0;
+        myCollider.enabled = false;
         Vector3 currPos = transform.position;
         AnimationAndMovementState(false);
         SpawnGraveStone(currPos + Vector3.up);
@@ -100,6 +105,17 @@ public class PlayerMovement : MonoBehaviour
     public void ResetStartPosition()
     {
         transform.position = startSpawnPoint.position;
+        myRb.gravityScale = 1;
+        myCollider.enabled = true;
         AnimationAndMovementState(true);
     }
+
+    public void CanMoveToggle(bool state)
+    {
+        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        //spriteRenderer.enabled = state;
+        myAnim.enabled = state;
+        canMove = state;
+    }
+
 }

@@ -10,6 +10,9 @@ TagManager:
   - GraveStone
   - Dimension1
   - Dimension2
+  - ScoreText
+  - ScoreManager
+  - InnerPoint
   layers:
   - Default
   - TransparentFX
@@ -17,9 +20,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - FootableObj
+  - GraveStone
+  - Player
   - 
   - 
   - 
@@ -49,4 +52,7 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: CoinEmitter
+    uniqueID: 2868097499
     locked: 0
